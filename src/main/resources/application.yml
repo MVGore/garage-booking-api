@@ -1,45 +1,57 @@
 server:
-  port: ${PORT:8080} # Defaults to 8080 if PORT not set
+  port: ${PORT:8080}
 
 spring:
   datasource:
-    url: jdbc:postgresql://${PGHOST}:${PGPORT}/${POSTGRES_DB}  # Railway Postgres connection
-    username: ${POSTGRES_USER}  # Railway Postgres user
-    password: ${POSTGRES_PASSWORD}  # Railway Postgres password
+    url: jdbc:postgresql://${PGHOST}:${PGPORT}/${POSTGRES_DB}
+    username: ${POSTGRES_USER}
+    password: ${POSTGRES_PASSWORD}
     driver-class-name: org.postgresql.Driver
+
 
   jpa:
     hibernate:
-      ddl-auto: update  # Automatically create/update tables based on Entities
-    show-sql: false  # Disable query logging in production
+      ddl-auto: update
+    show-sql: false
     properties:
       hibernate:
         format_sql: false
         use_sql_comments: false
 
   liquibase:
-    change-log: classpath:db/changelog/db.changelog-master.xml
+    enabled: false   # IMPORTANT → Liquibase logs a LOT
 
-  management:
-    endpoints:
-      web:
-        exposure:
-          include: health,info  # Enable health check endpoints
+management:
+  endpoints:
+    enabled-by-default: false   # Disable actuator spam completely
 
 jwt:
-  secret: ${JWT_SECRET}  # Your JWT secret from ENV
-  expiration: 86400000   # 1 day in milliseconds
+  secret: ${JWT_SECRET}
+  expiration: 86400000
 
 logging:
   level:
-    root: INFO
-    org.springframework: WARN
-    org.hibernate.SQL: WARN
-    com.mvgore.garageapi: INFO  # Keep INFO for app messages, not DEBUG
-    org.springframework.jdbc.datasource: WARN
+    root: OFF
 
-  file:
-    name: logs/application.log  # Log output to file
+    # Spring internals
+    org.springframework: OFF
+    org.springframework.boot: OFF
+    org.springframework.web: OFF
+    org.springframework.jdbc: OFF
+
+    # Hibernate & DB
+    org.hibernate: OFF
+    com.zaxxer.hikari: OFF
+
+    # Tomcat
+    org.apache.catalina: OFF
+    org.apache.tomcat: OFF
+
+    # Actuator
+    org.springframework.boot.actuate: OFF
+
+    # ✅ YOUR APPLICATION ONLY
+    com.mvgore.garageapi: INFO
 
   pattern:
-    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"  # Console log format
+    console: "%msg%n"

@@ -1,0 +1,51 @@
+|-- .gitignore
+|   |-- settings.json
+|-- eslint.config.js
+|-- index.html
+|-- package.json
+|-- package-lock.json
+|   |-- favicon.ico
+|   |-- vite.svg
+|-- README.md
+|   |   |-- apiClient.ts
+|   |   |-- auth.ts
+|   |   |-- booking.ts
+|   |   |-- garage.ts
+|   |   |-- service.ts
+|   |-- App.css
+|   |-- App.jsx
+|   |-- App.tsx
+|   |   |-- react.svg
+|   |   |-- Error.tsx
+|   |   |-- Loading.tsx
+|   |   |-- Navbar.tsx
+|   |   |-- PageCenter.module.css
+|   |   |-- PageCenter.tsx
+|   |   |-- PrivateRoute.tsx
+|   |   |-- RoleGate.tsx
+|   |-- index.css
+|   |-- main.tsx
+|   |   |   |-- BookingCreate.tsx
+|   |   |   |-- Dashboard.tsx
+|   |   |   |-- GarageDetails.tsx
+|   |   |   |-- Garages.tsx
+|   |   |   |-- MyBookings.tsx
+|   |   |-- Home.css
+|   |   |-- Home.tsx
+|   |   |-- Login.css
+|   |   |-- Login.tsx
+|   |   |-- NotFound.tsx
+|   |   |   |-- Bookings.tsx
+|   |   |   |-- Dashboard.tsx
+|   |   |   |-- Garage.tsx
+|   |   |   |-- ServiceCreate.tsx
+|   |   |   |-- ServiceEdit.tsx
+|   |   |   |-- Services.tsx
+|   |   |-- Register.css
+|   |   |-- Register.tsx
+|   |-- react-app-env.d.ts
+|   |   |-- auth.ts
+|   |-- structure.txt
+|-- tsconfig.json
+|-- tsconfig.txt
+|-- vite.config.js

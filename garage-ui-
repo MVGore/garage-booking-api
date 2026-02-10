@@ -1,0 +1,8 @@
+ForEach-Object : Cannot bind parameter 'RemainingScripts'. Cannot convert the "structure.txt" value of type 
+"System.String" to type "System.Management.Automation.ScriptBlock".
+At line:1 char:420
++ ...  -split '\\').Count-1; ('|   '*$depth)+'|-- '+$_.Name } structure.txt
++                                                             ~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [ForEach-Object], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.ForEachObjectCommand
+ 
