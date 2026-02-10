@@ -1,48 +1,45 @@
 server:
-  port: ${PORT:8080} #port: 8080
+  port: ${PORT:8080} # Defaults to 8080 if PORT not set
 
 spring:
   datasource:
-    url: ${DATABASE_URL}  #url: jdbc:postgresql://localhost:5432/garage_db
-    username: postgres
-    password: 1234
+    url: jdbc:postgresql://${PGHOST}:${PGPORT}/${POSTGRES_DB}  # Railway Postgres connection
+    username: ${POSTGRES_USER}  # Railway Postgres user
+    password: ${POSTGRES_PASSWORD}  # Railway Postgres password
     driver-class-name: org.postgresql.Driver
 
   jpa:
     hibernate:
-     # ddl-auto: update  # Updates schema automaticallY
-      ddl-auto: validate  # Updates schema automatically
+      ddl-auto: update  # Automatically create/update tables based on Entities
     show-sql: true
     properties:
       hibernate:
         format_sql: true
-        # Optionally log all SQL queries to the console for debugging
-        use_sql_comments: true
+        use_sql_comments: true  # Adds SQL comments for easier debugging
 
   liquibase:
     change-log: classpath:db/changelog/db.changelog-master.xml
 
-  # Enable Actuator health checks (optional for debugging)
   management:
     endpoints:
       web:
         exposure:
-          include: health,info
+          include: health,info  # Enable health check endpoints
 
 jwt:
-  secret: ${JWT_SECRET} #your_jwt_secret_here
-  expiration: 86400000 # 1 day in milliseconds
+  secret: ${JWT_SECRET}  # Your JWT secret from ENV
+  expiration: 86400000   # 1 day in milliseconds
 
 logging:
   level:
     root: INFO
     org.springframework: DEBUG
     org.hibernate.SQL: DEBUG
-    com.mvgore.garageapi: DEBUG  # Log all your custom classes for detailed debugging
+    com.mvgore.garageapi: DEBUG  # Detailed logging for your package
     org.springframework.jdbc.datasource: DEBUG
 
-  # Log file configuration for better traceability
   file:
-    name: logs/application.log  # Log all application-related output here
+    name: logs/application.log  # Log output to file
+
   pattern:
-    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"  # Log format for console output
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"  # Console log format

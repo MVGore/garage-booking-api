@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.garage.controller.GarageControllerIntegrationTest" time="0.78" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.garage.controller.GarageControllerIntegrationTest" time="0.714" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire13056370963483427124\surefirebooter-20260210085423728_3.jar C:\Users\Admin\AppData\Local\Temp\surefire13056370963483427124 2026-02-10T08-54-23_264-jvmRun1 surefire-20260210085423728_1tmp surefire_0-20260210085423728_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefire7337172810736608990\surefirebooter-20260210222851442_3.jar C:\Users\Admin\AppData\Local\Temp\surefire7337172810736608990 2026-02-10T22-28-50_996-jvmRun1 surefire-20260210222851442_1tmp surefire_0-20260210222851442_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Admin\Documents\VisualStudio Code\garage-booking-api\target\test-classes;C:\Users\Admin\Documents\VisualStudio Code\garage-booking-api\target\classes;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.2.1\spring-boot-starter-web-3.2.1.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter\3.2.1\spring-boot-starter-3.2.1.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot\3.2.1\spring-boot-3.2.1.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.2.1\spring-boot-autoconfigure-3.2.1.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.2.1\spring-boot-starter-logging-3.2.1.jar;C:\Users\Admin\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;C:\Users\Admin\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.21.1\log4j-to-slf4j-2.21.1.jar;C:\Users\Admin\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Admin\.m2\repository\org\slf4j\jul-to-slf4j\2.0.9\jul-to-slf4j-2.0.9.jar;C:\Users\Admin\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.2.1\spring-boot-starter-json-3.2.1.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.3\jackson-datatype-jdk8-2.15.3.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.3\jackson-datatype-jsr310-2.15.3.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.3\jackson-module-parameter-names-2.15.3.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.2.1\spring-boot-starter-tomcat-3.2.1.jar;C:\Users\Admin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.17\tomcat-embed-core-10.1.17.jar;C:\Users\Admin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.17\tomcat-embed-el-10.1.17.jar;C:\Users\Admin\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.17\tomcat-embed-websocket-10.1.17.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-web\6.1.2\spring-web-6.1.2.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-beans\6.1.2\spring-beans-6.1.2.jar;C:\Users\Admin\.m2\repository\io\micrometer\micrometer-observation\1.12.1\micrometer-observation-1.12.1.jar;C:\Users\Admin\.m2\repository\io\micrometer\micrometer-commons\1.12.1\micrometer-commons-1.12.1.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-webmvc\6.1.2\spring-webmvc-6.1.2.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-context\6.1.2\spring-context-6.1.2.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-expression\6.1.2\spring-expression-6.1.2.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.2.1\spring-boot-starter-data-jpa-3.2.1.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.2.1\spring-boot-starter-aop-3.2.1.jar;C:\Users\Admin\.m2\repository\org\aspectj\aspectjweaver\1.9.21\aspectjweaver-1.9.21.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.2.1\spring-boot-starter-jdbc-3.2.1.jar;C:\Users\Admin\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-jdbc\6.1.2\spring-jdbc-6.1.2.jar;C:\Users\Admin\.m2\repository\org\hibernate\orm\hibernate-core\6.4.1.Final\hibernate-core-6.4.1.Final.jar;C:\Users\Admin\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\Admin\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\Admin\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar;C:\Users\Admin\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\Admin\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\Admin\.m2\repository\com\fasterxml\classmate\1.6.0\classmate-1.6.0.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy\1.14.10\byte-buddy-1.14.10.jar;C:\Users\Admin\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.4\jaxb-runtime-4.0.4.jar;C:\Users\Admin\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.4\jaxb-core-4.0.4.jar;C:\Users\Admin\.m2\repository\org\eclipse\angus\angus-activation\2.0.1\angus-activation-2.0.1.jar;C:\Users\Admin\.m2\repository\org\glassfish\jaxb\txw2\4.0.4\txw2-4.0.4.jar;C:\Users\Admin\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\Admin\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\Admin\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\Admin\.m2\repository\org\springframework\data\spring-data-jpa\3.2.1\spring-data-jpa-3.2.1.jar;C:\Users\Admin\.m2\repository\org\springframework\data\spring-data-commons\3.2.1\spring-data-commons-3.2.1.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-orm\6.1.2\spring-orm-6.1.2.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-tx\6.1.2\spring-tx-6.1.2.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-aspects\6.1.2\spring-aspects-6.1.2.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.2.1\spring-boot-starter-security-3.2.1.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-aop\6.1.2\spring-aop-6.1.2.jar;C:\Users\Admin\.m2\repository\org\springframework\security\spring-security-config\6.2.1\spring-security-config-6.2.1.jar;C:\Users\Admin\.m2\repository\org\springframework\security\spring-security-web\6.2.1\spring-security-web-6.2.1.jar;C:\Users\Admin\.m2\repository\org\postgresql\postgresql\42.2.20\postgresql-42.2.20.jar;C:\Users\Admin\.m2\repository\org\checkerframework\checker-qual\3.5.0\checker-qual-3.5.0.jar;C:\Users\Admin\.m2\repository\com\h2database\h2\2.2.224\h2-2.2.224.jar;C:\Users\Admin\.m2\repository\org\liquibase\liquibase-core\4.24.0\liquibase-core-4.24.0.jar;C:\Users\Admin\.m2\repository\com\opencsv\opencsv\5.8\opencsv-5.8.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Admin\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\Admin\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\Admin\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\Admin\.m2\repository\io\jsonwebtoken\jjwt-api\0.11.5\jjwt-api-0.11.5.jar;C:\Users\Admin\.m2\repository\io\jsonwebtoken\jjwt-impl\0.11.5\jjwt-impl-0.11.5.jar;C:\Users\Admin\.m2\repository\io\jsonwebtoken\jjwt-jackson\0.11.5\jjwt-jackson-0.11.5.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;C:\Users\Admin\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.2.1\spring-boot-starter-test-3.2.1.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-test\3.2.1\spring-boot-test-3.2.1.jar;C:\Users\Admin\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.2.1\spring-boot-test-autoconfigure-3.2.1.jar;C:\Users\Admin\.m2\repository\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;C:\Users\Admin\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.1\jakarta.xml.bind-api-4.0.1.jar;C:\Users\Admin\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.2\jakarta.activation-api-2.1.2.jar;C:\Users\Admin\.m2\repository\net\minidev\json-smart\2.5.0\json-smart-2.5.0.jar;C:\Users\Admin\.m2\repository\net\minidev\accessors-smart\2.5.0\accessors-smart-2.5.0.jar;C:\Users\Admin\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\Admin\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\Admin\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;C:\Users\Admin\.m2\repository\org\mockito\mockito-core\5.7.0\mockito-core-5.7.0.jar;C:\Users\Admin\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.10\byte-buddy-agent-1.14.10.jar;C:\Users\Admin\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\Admin\.m2\repository\org\mockito\mockito-junit-jupiter\5.7.0\mockito-junit-jupiter-5.7.0.jar;C:\Users\Admin\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\Admin\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-core\6.1.2\spring-core-6.1.2.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-jcl\6.1.2\spring-jcl-6.1.2.jar;C:\Users\Admin\.m2\repository\org\springframework\spring-test\6.1.2\spring-test-6.1.2.jar;C:\Users\Admin\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\Admin\.m2\repository\org\springframework\security\spring-security-test\6.2.1\spring-security-test-6.2.1.jar;C:\Users\Admin\.m2\repository\org\springframework\security\spring-security-core\6.2.1\spring-security-core-6.2.1.jar;C:\Users\Admin\.m2\repository\org\springframework\security\spring-security-crypto\6.2.1\spring-security-crypto-6.2.1.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Admin\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;C:\Users\Admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\Admin\.m2\repository\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;C:\Users\Admin\.m2\repository\org\testcontainers\testcontainers\1.20.3\testcontainers-1.20.3.jar;C:\Users\Admin\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Admin\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\Admin\.m2\repository\org\rnorth\duct-tape\duct-tape\1.0.8\duct-tape-1.0.8.jar;C:\Users\Admin\.m2\repository\org\jetbrains\annotations\17.0.0\annotations-17.0.0.jar;C:\Users\Admin\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\Admin\.m2\repository\com\github\docker-java\docker-java-transport-zerodep\3.4.0\docker-java-transport-zerodep-3.4.0.jar;C:\Users\Admin\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\Admin\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Admin\.m2\repository\org\testcontainers\junit-jupiter\1.20.3\junit-jupiter-1.20.3.jar;C:\Users\Admin\.m2\repository\org\testcontainers\postgresql\1.20.3\postgresql-1.20.3.jar;C:\Users\Admin\.m2\repository\org\testcontainers\jdbc\1.20.3\jdbc-1.20.3.jar;C:\Users\Admin\.m2\repository\org\testcontainers\database-commons\1.20.3\database-commons-1.20.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="FILE_LOG_CHARSET" value="windows-1252"/>
     <property name="java.awt.headless" value="true"/>
-    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire13056370963483427124\surefirebooter-20260210085423728_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefire7337172810736608990\surefirebooter-20260210222851442_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -52,7 +52,7 @@
     <property name="user.dir" value="C:\Users\Admin\Documents\VisualStudio Code\garage-booking-api"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="13792"/>
+    <property name="PID" value="10740"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="CONSOLE_LOG_CHARSET" value="windows-1252"/>
     <property name="native.encoding" value="Cp1252"/>
@@ -64,43 +64,8 @@
     <property name="java.class.version" value="61.0"/>
     <property name="CONSOLE_LOG_PATTERN" value="%d{yyyy-MM-dd HH:mm:ss} - %msg%n"/>
   </properties>
-  <testcase name="testCreateGarage" classname="com.garage.controller.GarageControllerIntegrationTest" time="0.588">
-    <system-out><![CDATA[2026-02-10 08:54:43 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
-2026-02-10 08:54:43 - begin
-2026-02-10 08:54:43 - Created new SQL alias : g1_0
-2026-02-10 08:54:43 - Registration of TableGroup [StandardTableGroup(com.mvgore.garageapi.entity.Garage(52256687987200))] with identifierForTableGroup [com.mvgore.garageapi.entity.Garage] for NavigablePath [com.mvgore.garageapi.entity.Garage] 
-2026-02-10 08:54:43 - Registration of TableGroup [org.hibernate.sql.ast.tree.from.LazyTableGroup@127e838b] with identifierForTableGroup [com.mvgore.garageapi.entity.Garage.owner] for NavigablePath [com.mvgore.garageapi.entity.Garage.owner] 
-2026-02-10 08:54:43 - DomainResult Graph:
- \-EntityResultImpl [com.mvgore.garageapi.entity.Garage(52256687987200)]
- |  +-DelayedCollectionFetch [com.mvgore.garageapi.entity.Garage(52256687987200).bookings]
- |  +-BasicFetch [com.mvgore.garageapi.entity.Garage(52256687987200).description]
- |  +-BasicFetch [com.mvgore.garageapi.entity.Garage(52256687987200).location]
- |  +-BasicFetch [com.mvgore.garageapi.entity.Garage(52256687987200).name]
- |  +-CircularFetchImpl [com.mvgore.garageapi.entity.Garage(52256687987200).owner]
- |  +-BasicFetch [com.mvgore.garageapi.entity.Garage(52256687987200).priceRange]
- |  \-DelayedCollectionFetch [com.mvgore.garageapi.entity.Garage(52256687987200).services]
-
-2026-02-10 08:54:43 - SQL AST Tree:
-    SelectStatement {
-      FromClause {
-        StandardTableGroup (g1 : com.mvgore.garageapi.entity.Garage(52256687987200)) {
-          primaryTableReference : garages as g1_0
-          TableGroupJoins {
-            left  join LazyTableGroup (o1 : com.mvgore.garageapi.entity.Garage(52256687987200).owner) {
-            }
-          }
-        }
-      }
-    }
-
-2026-02-10 08:54:43 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
-2026-02-10 08:54:43 - Initializer list:
-	  com.mvgore.garageapi.entity.Garage(52256687987200).services -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.Garage(52256687987200).services)@2088546289 (PluralAttribute(com.mvgore.garageapi.entity.Garage.services))
-	  com.mvgore.garageapi.entity.Garage(52256687987200) -> EntityResultInitializer(com.mvgore.garageapi.entity.Garage(52256687987200))@1174935745 (SingleTableEntityPersister(com.mvgore.garageapi.entity.Garage))
-	  com.mvgore.garageapi.entity.Garage(52256687987200).owner -> EntitySelectFetchInitializer(com.mvgore.garageapi.entity.Garage(52256687987200).owner)@912906156 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Garage.owner])@556812393)
-	  com.mvgore.garageapi.entity.Garage(52256687987200).bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.Garage(52256687987200).bookings)@1349351473 (PluralAttribute(com.mvgore.garageapi.entity.Garage.bookings))
-
-2026-02-10 08:54:43 - 
+  <testcase name="testCreateGarage" classname="com.garage.controller.GarageControllerIntegrationTest" time="0.518">
+    <system-out><![CDATA[2026-02-10 22:29:06 - 
     /* <criteria> */ select
         g1_0.id,
         g1_0.description,
@@ -120,22 +85,7 @@ Hibernate:
         g1_0.price_range 
     from
         garages g1_0
-2026-02-10 08:54:43 - Extracted JDBC value [0] - [2]
-2026-02-10 08:54:43 - (EntityResultInitializer) Hydrated EntityKey (com.mvgore.garageapi.entity.Garage(52256687987200)): 2
-2026-02-10 08:54:43 - Extracted JDBC value [0] - [2]
-2026-02-10 08:54:43 - (DelayedCollectionInitializer) Current row collection key : com.mvgore.garageapi.entity.Garage(52256687987200).bookings#2
-2026-02-10 08:54:43 - Extracted JDBC value [0] - [2]
-2026-02-10 08:54:43 - (DelayedCollectionInitializer) Current row collection key : com.mvgore.garageapi.entity.Garage(52256687987200).services#2
-2026-02-10 08:54:43 - (EntityResultInitializer) Created new entity instance [com.mvgore.garageapi.entity.Garage(52256687987200)#2] : 924052457
-2026-02-10 08:54:43 - Extracted JDBC value [4] - [3]
-2026-02-10 08:54:43 - (EntitySelectFetchInitializer) Invoking session#internalLoad for entity (com.mvgore.garageapi.entity.Garage(52256687987200).owner#3) : 3
-2026-02-10 08:54:43 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = IGNORE
-2026-02-10 08:54:43 - Initializer list:
-	  com.mvgore.garageapi.entity.User.bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.bookings)@1286858604 (PluralAttribute(com.mvgore.garageapi.entity.User.bookings))
-	  com.mvgore.garageapi.entity.User.garages -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.garages)@1691816368 (PluralAttribute(com.mvgore.garageapi.entity.User.garages))
-	  com.mvgore.garageapi.entity.User -> EntityResultInitializer(com.mvgore.garageapi.entity.User)@1307899409 (SingleTableEntityPersister(com.mvgore.garageapi.entity.User))
-
-2026-02-10 08:54:43 - 
+2026-02-10 22:29:06 - 
     select
         u1_0.id,
         u1_0.email,
@@ -157,44 +107,7 @@ Hibernate:
         users u1_0 
     where
         u1_0.id=?
-2026-02-10 08:54:43 - (EntityResultInitializer) Hydrated EntityKey (com.mvgore.garageapi.entity.User): 3
-2026-02-10 08:54:43 - Extracted JDBC value [0] - [3]
-2026-02-10 08:54:43 - (DelayedCollectionInitializer) Current row collection key : com.mvgore.garageapi.entity.User.bookings#3
-2026-02-10 08:54:43 - Extracted JDBC value [0] - [3]
-2026-02-10 08:54:43 - (DelayedCollectionInitializer) Current row collection key : com.mvgore.garageapi.entity.User.garages#3
-2026-02-10 08:54:44 - (EntityResultInitializer) Created new entity instance [com.mvgore.garageapi.entity.User#3] : 40625646
-2026-02-10 08:54:44 - Extracted JDBC value [1] - [owner1@test.com]
-2026-02-10 08:54:44 - Extracted JDBC value [2] - [owner1]
-2026-02-10 08:54:44 - Extracted JDBC value [3] - [pass]
-2026-02-10 08:54:44 - Extracted JDBC value [4] - [GARAGE_OWNER]
-2026-02-10 08:54:44 - (EntityResultInitializer) Done materializing entityInstance : com.mvgore.garageapi.entity.User#3
-2026-02-10 08:54:44 - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@636787fd
-2026-02-10 08:54:44 - (EntitySelectFetchInitializer) Entity [com.mvgore.garageapi.entity.Garage(52256687987200).owner#3] : 3 has being loaded by session.internalLoad.
-2026-02-10 08:54:44 - Extracted JDBC value [1] - [null]
-2026-02-10 08:54:44 - Extracted JDBC value [2] - [Test Location]
-2026-02-10 08:54:44 - Extracted JDBC value [3] - [Test Garage]
-2026-02-10 08:54:44 - Extracted JDBC value [5] - [null]
-2026-02-10 08:54:44 - (EntityResultInitializer) Done materializing entityInstance : com.mvgore.garageapi.entity.Garage(52256687987200)#2
-2026-02-10 08:54:44 - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@3e7e4aea
-2026-02-10 08:54:44 - jakarta.persistence.PersistenceUnitUtil.getIdentifier is only intended to work with enhanced entities (although Hibernate also adapts this support to its proxies); however the passed entity was not enhanced (nor a proxy).. may not be able to read identifier
-2026-02-10 08:54:44 - jakarta.persistence.PersistenceUnitUtil.getIdentifier is only intended to work with enhanced entities (although Hibernate also adapts this support to its proxies); however the passed entity was not enhanced (nor a proxy).. may not be able to read identifier
-2026-02-10 08:54:44 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = IGNORE
-2026-02-10 08:54:44 - Initializer list:
-	  com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage.owner -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage.owner)@2021874006 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Garage.owner])@556812393)
-	  com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage)@59217059 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.GarageServiceEntity.garage])@675572486)
-	  com.mvgore.garageapi.entity.Garage.bookings.{element}.service -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.Garage.bookings.{element}.service)@1543549761 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Booking.service])@1688248774)
-	  com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage.bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage.bookings)@275090225 (PluralAttribute(com.mvgore.garageapi.entity.Garage.bookings))
-	  com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage.owner.bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage.owner.bookings)@1926113666 (PluralAttribute(com.mvgore.garageapi.entity.User.bookings))
-	  com.mvgore.garageapi.entity.Garage.bookings.{element}.garage -> EntitySelectFetchInitializer(com.mvgore.garageapi.entity.Garage.bookings.{element}.garage)@1297324532 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Booking.garage])@1047156219)
-	  com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage.owner.garages -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage.owner.garages)@345026980 (PluralAttribute(com.mvgore.garageapi.entity.User.garages))
-	  com.mvgore.garageapi.entity.Garage.bookings.{element} -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.Garage.bookings.{element})@680561668 (EntityCollectionPart(com.mvgore.garageapi.entity.Garage.bookings#{element})@1556161140)
-	  com.mvgore.garageapi.entity.Garage.bookings.{element}.customer.bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.Garage.bookings.{element}.customer.bookings)@730935981 (PluralAttribute(com.mvgore.garageapi.entity.User.bookings))
-	  com.mvgore.garageapi.entity.Garage.bookings.{element}.customer.garages -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.Garage.bookings.{element}.customer.garages)@2061271570 (PluralAttribute(com.mvgore.garageapi.entity.User.garages))
-	  com.mvgore.garageapi.entity.Garage.bookings.{element}.customer -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.Garage.bookings.{element}.customer)@1800405372 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Booking.customer])@770012055)
-	  com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage.services -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage.services)@1191985342 (PluralAttribute(com.mvgore.garageapi.entity.Garage.services))
-	  com.mvgore.garageapi.entity.Garage.bookings -> SetInitializer(com.mvgore.garageapi.entity.Garage.bookings)@1697257128 (PluralAttribute(com.mvgore.garageapi.entity.Garage.bookings))
-
-2026-02-10 08:54:44 - 
+2026-02-10 22:29:06 - 
     select
         b1_0.garage_id,
         b1_0.id,
@@ -284,63 +197,7 @@ Hibernate:
             on o1_0.id=g2_0.owner_id 
     where
         b1_0.garage_id=?
-2026-02-10 08:54:44 - Extracted JDBC value [4] - [4]
-2026-02-10 08:54:44 - (EntityJoinedFetchInitializer) Hydrated EntityKey (com.mvgore.garageapi.entity.Garage.bookings.{element}.customer): 4
-2026-02-10 08:54:44 - Extracted JDBC value [3] - [4]
-2026-02-10 08:54:44 - Extracted JDBC value [18] - [3]
-2026-02-10 08:54:44 - (EntityJoinedFetchInitializer) Hydrated EntityKey (com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage.owner): 3
-2026-02-10 08:54:44 - Extracted JDBC value [17] - [3]
-2026-02-10 08:54:44 - Extracted JDBC value [13] - [2]
-2026-02-10 08:54:44 - (EntityJoinedFetchInitializer) Hydrated EntityKey (com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage): 2
-2026-02-10 08:54:44 - Extracted JDBC value [12] - [2]
-2026-02-10 08:54:44 - Extracted JDBC value [10] - [2]
-2026-02-10 08:54:44 - (EntityJoinedFetchInitializer) Hydrated EntityKey (com.mvgore.garageapi.entity.Garage.bookings.{element}.service): 2
-2026-02-10 08:54:44 - Extracted JDBC value [9] - [2]
-2026-02-10 08:54:44 - Extracted JDBC value [1] - [2]
-2026-02-10 08:54:44 - (EntityJoinedFetchInitializer) Hydrated EntityKey (com.mvgore.garageapi.entity.Garage.bookings.{element}): 2
-2026-02-10 08:54:44 - Extracted JDBC value [4] - [4]
-2026-02-10 08:54:44 - (DelayedCollectionInitializer) Current row collection key : com.mvgore.garageapi.entity.Garage.bookings.{element}.customer.bookings#4
-2026-02-10 08:54:44 - Extracted JDBC value [4] - [4]
-2026-02-10 08:54:44 - (DelayedCollectionInitializer) Current row collection key : com.mvgore.garageapi.entity.Garage.bookings.{element}.customer.garages#4
-2026-02-10 08:54:44 - Extracted JDBC value [13] - [2]
-2026-02-10 08:54:44 - (DelayedCollectionInitializer) Current row collection key : com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage.bookings#2
-2026-02-10 08:54:44 - Extracted JDBC value [18] - [3]
-2026-02-10 08:54:44 - (DelayedCollectionInitializer) Current row collection key : com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage.owner.bookings#3
-2026-02-10 08:54:44 - Extracted JDBC value [18] - [3]
-2026-02-10 08:54:44 - (DelayedCollectionInitializer) Current row collection key : com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage.owner.garages#3
-2026-02-10 08:54:44 - Extracted JDBC value [13] - [2]
-2026-02-10 08:54:44 - (DelayedCollectionInitializer) Current row collection key : com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage.services#2
-2026-02-10 08:54:44 - Extracted JDBC value [0] - [2]
-2026-02-10 08:54:44 - (SetInitializer) Current row collection key : com.mvgore.garageapi.entity.Garage.bookings#2
-2026-02-10 08:54:44 - Extracted JDBC value [0] - [2]
-2026-02-10 08:54:44 - (EntityJoinedFetchInitializer) Created new entity instance [com.mvgore.garageapi.entity.Garage.bookings.{element}.customer#4] : 895798008
-2026-02-10 08:54:44 - (EntityJoinedFetchInitializer) Created new entity instance [com.mvgore.garageapi.entity.Garage.bookings.{element}.service#2] : 13505962
-2026-02-10 08:54:44 - (EntityJoinedFetchInitializer) Created new entity instance [com.mvgore.garageapi.entity.Garage.bookings.{element}#2] : 1034678546
-2026-02-10 08:54:44 - Extracted JDBC value [0] - [2]
-2026-02-10 08:54:44 - (EntitySelectFetchInitializer) Found existing loading entry [com.mvgore.garageapi.entity.Garage.bookings.{element}.garage#2] - using loading instance
-2026-02-10 08:54:44 - (SetInitializer) Responsible for loading collection [com.mvgore.garageapi.entity.Garage.bookings#2] : org.hibernate.collection.spi.PersistentSet@201630154
-2026-02-10 08:54:44 - Extracted JDBC value [5] - [customer1@test.com]
-2026-02-10 08:54:44 - Extracted JDBC value [6] - [customer1]
-2026-02-10 08:54:44 - Extracted JDBC value [7] - [pass]
-2026-02-10 08:54:44 - Extracted JDBC value [8] - [CUSTOMER]
-2026-02-10 08:54:44 - (EntityJoinedFetchInitializer) Done materializing entityInstance : com.mvgore.garageapi.entity.Garage.bookings.{element}.customer#4
-2026-02-10 08:54:44 - Extracted JDBC value [11] - [30]
-2026-02-10 08:54:44 - Extracted JDBC value [24] - [Oil Change]
-2026-02-10 08:54:44 - Extracted JDBC value [25] - [499.0]
-2026-02-10 08:54:44 - (EntityJoinedFetchInitializer) Done materializing entityInstance : com.mvgore.garageapi.entity.Garage.bookings.{element}.service#2
-2026-02-10 08:54:44 - Extracted JDBC value [2] - [2026-02-11T08:54:43.750564]
-2026-02-10 08:54:44 - Extracted JDBC value [26] - [PENDING]
-2026-02-10 08:54:44 - (EntityJoinedFetchInitializer) Done materializing entityInstance : com.mvgore.garageapi.entity.Garage.bookings.{element}#2
-2026-02-10 08:54:44 - (SetInitializer) Reading element from row for collection [com.mvgore.garageapi.entity.Garage.bookings#2] -> org.hibernate.collection.spi.PersistentSet@201630154
-2026-02-10 08:54:44 - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.collection.internal.EagerCollectionAssembler@70bc684b
-2026-02-10 08:54:44 - Collection fully initialized: [com.mvgore.garageapi.entity.Garage.bookings#2]
-2026-02-10 08:54:44 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = IGNORE
-2026-02-10 08:54:44 - Initializer list:
-	  com.mvgore.garageapi.entity.Garage.services.{element}.garage -> EntitySelectFetchInitializer(com.mvgore.garageapi.entity.Garage.services.{element}.garage)@1923613717 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.GarageServiceEntity.garage])@675572486)
-	  com.mvgore.garageapi.entity.Garage.services -> SetInitializer(com.mvgore.garageapi.entity.Garage.services)@685669934 (PluralAttribute(com.mvgore.garageapi.entity.Garage.services))
-	  com.mvgore.garageapi.entity.Garage.services.{element} -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.Garage.services.{element})@993244494 (EntityCollectionPart(com.mvgore.garageapi.entity.Garage.services#{element})@824753705)
-
-2026-02-10 08:54:44 - 
+2026-02-10 22:29:06 - 
     select
         s1_0.garage_id,
         s1_0.id,
@@ -362,33 +219,7 @@ Hibernate:
         services s1_0 
     where
         s1_0.garage_id=?
-2026-02-10 08:54:44 - Extracted JDBC value [1] - [2]
-2026-02-10 08:54:44 - (EntityJoinedFetchInitializer) Hydrated EntityKey (com.mvgore.garageapi.entity.Garage.services.{element}): 2
-2026-02-10 08:54:44 - Extracted JDBC value [0] - [2]
-2026-02-10 08:54:44 - (SetInitializer) Current row collection key : com.mvgore.garageapi.entity.Garage.services#2
-2026-02-10 08:54:44 - Extracted JDBC value [0] - [2]
-2026-02-10 08:54:44 - (SetInitializer) Responsible for loading collection [com.mvgore.garageapi.entity.Garage.services#2] : org.hibernate.collection.spi.PersistentSet@2134374070
-2026-02-10 08:54:44 - (SetInitializer) Reading element from row for collection [com.mvgore.garageapi.entity.Garage.services#2] -> org.hibernate.collection.spi.PersistentSet@2134374070
-2026-02-10 08:54:44 - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.collection.internal.EagerCollectionAssembler@276af32d
-2026-02-10 08:54:44 - Collection fully initialized: [com.mvgore.garageapi.entity.Garage.services#2]
-2026-02-10 08:54:44 - committing
-2026-02-10 08:54:44 - Processing flush-time cascades
-2026-02-10 08:54:44 - Dirty checking collections
-2026-02-10 08:54:44 - Collection found: [com.mvgore.garageapi.entity.User.bookings#3], was: [com.mvgore.garageapi.entity.User.bookings#3] (uninitialized)
-2026-02-10 08:54:44 - Collection found: [com.mvgore.garageapi.entity.User.garages#3], was: [com.mvgore.garageapi.entity.User.garages#3] (uninitialized)
-2026-02-10 08:54:44 - Collection found: [com.mvgore.garageapi.entity.User.bookings#4], was: [com.mvgore.garageapi.entity.User.bookings#4] (uninitialized)
-2026-02-10 08:54:44 - Collection found: [com.mvgore.garageapi.entity.User.garages#4], was: [com.mvgore.garageapi.entity.User.garages#4] (uninitialized)
-2026-02-10 08:54:44 - Collection dereferenced: [com.mvgore.garageapi.entity.Garage.bookings#2]
-2026-02-10 08:54:44 - Collection dereferenced: [com.mvgore.garageapi.entity.Garage.services#2]
-2026-02-10 08:54:44 - Flushed: 0 insertions, 0 updates, 3 deletions to 5 objects
-2026-02-10 08:54:44 - Flushed: 0 (re)creations, 0 updates, 2 removals to 6 collections
-2026-02-10 08:54:44 - Listing entities:
-2026-02-10 08:54:44 - com.mvgore.garageapi.entity.Garage{owner=com.mvgore.garageapi.entity.User#3, name=Test Garage, description=null, location=Test Location, id=2, services=[com.mvgore.garageapi.entity.GarageServiceEntity#2], bookings=[com.mvgore.garageapi.entity.Booking#2], priceRange=null}
-2026-02-10 08:54:44 - com.mvgore.garageapi.entity.User{garages=<uninitialized>, password=pass, role=GARAGE_OWNER, name=owner1, id=3, bookings=<uninitialized>, email=owner1@test.com}
-2026-02-10 08:54:44 - com.mvgore.garageapi.entity.User{garages=<uninitialized>, password=pass, role=CUSTOMER, name=customer1, id=4, bookings=<uninitialized>, email=customer1@test.com}
-2026-02-10 08:54:44 - com.mvgore.garageapi.entity.GarageServiceEntity{duration=30, price=499.0, garage=com.mvgore.garageapi.entity.Garage#2, name=Oil Change, id=2}
-2026-02-10 08:54:44 - com.mvgore.garageapi.entity.Booking{bookingTime=2026-02-11T08:54:43.750564, service=com.mvgore.garageapi.entity.GarageServiceEntity#2, garage=com.mvgore.garageapi.entity.Garage#2, id=2, customer=com.mvgore.garageapi.entity.User#4, status=PENDING}
-2026-02-10 08:54:44 - 
+2026-02-10 22:29:06 - 
     /* delete for com.mvgore.garageapi.entity.Booking */delete 
     from
         bookings 
@@ -400,7 +231,7 @@ Hibernate:
         bookings 
     where
         id=?
-2026-02-10 08:54:44 - 
+2026-02-10 22:29:06 - 
     /* delete for com.mvgore.garageapi.entity.GarageServiceEntity */delete 
     from
         services 
@@ -412,7 +243,7 @@ Hibernate:
         services 
     where
         id=?
-2026-02-10 08:54:44 - 
+2026-02-10 22:29:06 - 
     /* delete for com.mvgore.garageapi.entity.Garage */delete 
     from
         garages 
@@ -424,35 +255,7 @@ Hibernate:
         garages 
     where
         id=?
-2026-02-10 08:54:44 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
-2026-02-10 08:54:44 - begin
-2026-02-10 08:54:44 - Created new SQL alias : u1_0
-2026-02-10 08:54:44 - Registration of TableGroup [StandardTableGroup(com.mvgore.garageapi.entity.User(52256812778800))] with identifierForTableGroup [com.mvgore.garageapi.entity.User] for NavigablePath [com.mvgore.garageapi.entity.User] 
-2026-02-10 08:54:44 - DomainResult Graph:
- \-EntityResultImpl [com.mvgore.garageapi.entity.User(52256812778800)]
- |  +-DelayedCollectionFetch [com.mvgore.garageapi.entity.User(52256812778800).bookings]
- |  +-BasicFetch [com.mvgore.garageapi.entity.User(52256812778800).email]
- |  +-DelayedCollectionFetch [com.mvgore.garageapi.entity.User(52256812778800).garages]
- |  +-BasicFetch [com.mvgore.garageapi.entity.User(52256812778800).name]
- |  +-BasicFetch [com.mvgore.garageapi.entity.User(52256812778800).password]
- |  \-BasicFetch [com.mvgore.garageapi.entity.User(52256812778800).role]
-
-2026-02-10 08:54:44 - SQL AST Tree:
-    SelectStatement {
-      FromClause {
-        StandardTableGroup (u1 : com.mvgore.garageapi.entity.User(52256812778800)) {
-          primaryTableReference : users as u1_0
-        }
-      }
-    }
-
-2026-02-10 08:54:44 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
-2026-02-10 08:54:44 - Initializer list:
-	  com.mvgore.garageapi.entity.User(52256812778800).bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User(52256812778800).bookings)@1174605053 (PluralAttribute(com.mvgore.garageapi.entity.User.bookings))
-	  com.mvgore.garageapi.entity.User(52256812778800) -> EntityResultInitializer(com.mvgore.garageapi.entity.User(52256812778800))@1090623857 (SingleTableEntityPersister(com.mvgore.garageapi.entity.User))
-	  com.mvgore.garageapi.entity.User(52256812778800).garages -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User(52256812778800).garages)@138330288 (PluralAttribute(com.mvgore.garageapi.entity.User.garages))
-
-2026-02-10 08:54:44 - 
+2026-02-10 22:29:06 - 
     /* <criteria> */ select
         u1_0.id,
         u1_0.email,
@@ -470,54 +273,7 @@ Hibernate:
         u1_0.role 
     from
         users u1_0
-2026-02-10 08:54:44 - Extracted JDBC value [0] - [3]
-2026-02-10 08:54:44 - (EntityResultInitializer) Hydrated EntityKey (com.mvgore.garageapi.entity.User(52256812778800)): 3
-2026-02-10 08:54:44 - Extracted JDBC value [0] - [3]
-2026-02-10 08:54:44 - (DelayedCollectionInitializer) Current row collection key : com.mvgore.garageapi.entity.User(52256812778800).bookings#3
-2026-02-10 08:54:44 - Extracted JDBC value [0] - [3]
-2026-02-10 08:54:44 - (DelayedCollectionInitializer) Current row collection key : com.mvgore.garageapi.entity.User(52256812778800).garages#3
-2026-02-10 08:54:44 - (EntityResultInitializer) Created new entity instance [com.mvgore.garageapi.entity.User(52256812778800)#3] : 1219579466
-2026-02-10 08:54:44 - Extracted JDBC value [1] - [owner1@test.com]
-2026-02-10 08:54:44 - Extracted JDBC value [2] - [owner1]
-2026-02-10 08:54:44 - Extracted JDBC value [3] - [pass]
-2026-02-10 08:54:44 - Extracted JDBC value [4] - [GARAGE_OWNER]
-2026-02-10 08:54:44 - (EntityResultInitializer) Done materializing entityInstance : com.mvgore.garageapi.entity.User(52256812778800)#3
-2026-02-10 08:54:44 - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@7820a19d
-2026-02-10 08:54:44 - Extracted JDBC value [0] - [4]
-2026-02-10 08:54:44 - (EntityResultInitializer) Hydrated EntityKey (com.mvgore.garageapi.entity.User(52256812778800)): 4
-2026-02-10 08:54:44 - Extracted JDBC value [0] - [4]
-2026-02-10 08:54:44 - (DelayedCollectionInitializer) Current row collection key : com.mvgore.garageapi.entity.User(52256812778800).bookings#4
-2026-02-10 08:54:44 - Extracted JDBC value [0] - [4]
-2026-02-10 08:54:44 - (DelayedCollectionInitializer) Current row collection key : com.mvgore.garageapi.entity.User(52256812778800).garages#4
-2026-02-10 08:54:44 - (EntityResultInitializer) Created new entity instance [com.mvgore.garageapi.entity.User(52256812778800)#4] : 975270861
-2026-02-10 08:54:44 - Extracted JDBC value [1] - [customer1@test.com]
-2026-02-10 08:54:44 - Extracted JDBC value [2] - [customer1]
-2026-02-10 08:54:44 - Extracted JDBC value [3] - [pass]
-2026-02-10 08:54:44 - Extracted JDBC value [4] - [CUSTOMER]
-2026-02-10 08:54:44 - (EntityResultInitializer) Done materializing entityInstance : com.mvgore.garageapi.entity.User(52256812778800)#4
-2026-02-10 08:54:44 - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@7820a19d
-2026-02-10 08:54:44 - jakarta.persistence.PersistenceUnitUtil.getIdentifier is only intended to work with enhanced entities (although Hibernate also adapts this support to its proxies); however the passed entity was not enhanced (nor a proxy).. may not be able to read identifier
-2026-02-10 08:54:44 - jakarta.persistence.PersistenceUnitUtil.getIdentifier is only intended to work with enhanced entities (although Hibernate also adapts this support to its proxies); however the passed entity was not enhanced (nor a proxy).. may not be able to read identifier
-2026-02-10 08:54:44 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = IGNORE
-2026-02-10 08:54:44 - Initializer list:
-	  com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.owner -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.owner)@933569224 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Garage.owner])@556812393)
-	  com.mvgore.garageapi.entity.User.bookings.{element}.garage.owner.garages -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.garage.owner.garages)@111902954 (PluralAttribute(com.mvgore.garageapi.entity.User.garages))
-	  com.mvgore.garageapi.entity.User.bookings.{element}.garage.services -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.garage.services)@1233302288 (PluralAttribute(com.mvgore.garageapi.entity.Garage.services))
-	  com.mvgore.garageapi.entity.User.bookings.{element}.garage.owner.bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.garage.owner.bookings)@569143868 (PluralAttribute(com.mvgore.garageapi.entity.User.bookings))
-	  com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.owner.garages -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.owner.garages)@1061267371 (PluralAttribute(com.mvgore.garageapi.entity.User.garages))
-	  com.mvgore.garageapi.entity.User.bookings.{element} -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.User.bookings.{element})@1698159737 (EntityCollectionPart(com.mvgore.garageapi.entity.User.bookings#{element})@218193338)
-	  com.mvgore.garageapi.entity.User.bookings.{element}.garage.owner -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.garage.owner)@972155388 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Garage.owner])@556812393)
-	  com.mvgore.garageapi.entity.User.bookings -> SetInitializer(com.mvgore.garageapi.entity.User.bookings)@2077098348 (PluralAttribute(com.mvgore.garageapi.entity.User.bookings))
-	  com.mvgore.garageapi.entity.User.bookings.{element}.customer -> EntitySelectFetchInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.customer)@1233161537 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Booking.customer])@770012055)
-	  com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.services -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.services)@302990364 (PluralAttribute(com.mvgore.garageapi.entity.Garage.services))
-	  com.mvgore.garageapi.entity.User.bookings.{element}.garage -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.garage)@604500392 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Booking.garage])@1047156219)
-	  com.mvgore.garageapi.entity.User.bookings.{element}.service -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.service)@801718565 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Booking.service])@1688248774)
-	  com.mvgore.garageapi.entity.User.bookings.{element}.garage.bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.garage.bookings)@1651391256 (PluralAttribute(com.mvgore.garageapi.entity.Garage.bookings))
-	  com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.owner.bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.owner.bookings)@170503405 (PluralAttribute(com.mvgore.garageapi.entity.User.bookings))
-	  com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.bookings)@288917169 (PluralAttribute(com.mvgore.garageapi.entity.Garage.bookings))
-	  com.mvgore.garageapi.entity.User.bookings.{element}.service.garage -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.service.garage)@1948069338 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.GarageServiceEntity.garage])@675572486)
-
-2026-02-10 08:54:44 - 
+2026-02-10 22:29:06 - 
     select
         b1_0.customer_id,
         b1_0.id,
@@ -625,16 +381,7 @@ Hibernate:
             on o2_0.id=g2_0.owner_id 
     where
         b1_0.customer_id=?
-2026-02-10 08:54:44 - Collection fully initialized: [com.mvgore.garageapi.entity.User.bookings#3]
-2026-02-10 08:54:44 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = IGNORE
-2026-02-10 08:54:44 - Initializer list:
-	  com.mvgore.garageapi.entity.User.garages.{element} -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.User.garages.{element})@1969876957 (EntityCollectionPart(com.mvgore.garageapi.entity.User.garages#{element})@2033307298)
-	  com.mvgore.garageapi.entity.User.garages.{element}.owner -> EntitySelectFetchInitializer(com.mvgore.garageapi.entity.User.garages.{element}.owner)@1745317719 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Garage.owner])@556812393)
-	  com.mvgore.garageapi.entity.User.garages -> SetInitializer(com.mvgore.garageapi.entity.User.garages)@1282277699 (PluralAttribute(com.mvgore.garageapi.entity.User.garages))
-	  com.mvgore.garageapi.entity.User.garages.{element}.services -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.garages.{element}.services)@1664299746 (PluralAttribute(com.mvgore.garageapi.entity.Garage.services))
-	  com.mvgore.garageapi.entity.User.garages.{element}.bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.garages.{element}.bookings)@1495154270 (PluralAttribute(com.mvgore.garageapi.entity.Garage.bookings))
-
-2026-02-10 08:54:44 - 
+2026-02-10 22:29:06 - 
     select
         g1_0.owner_id,
         g1_0.id,
@@ -658,29 +405,7 @@ Hibernate:
         garages g1_0 
     where
         g1_0.owner_id=?
-2026-02-10 08:54:44 - Collection fully initialized: [com.mvgore.garageapi.entity.User.garages#3]
-2026-02-10 08:54:44 - jakarta.persistence.PersistenceUnitUtil.getIdentifier is only intended to work with enhanced entities (although Hibernate also adapts this support to its proxies); however the passed entity was not enhanced (nor a proxy).. may not be able to read identifier
-2026-02-10 08:54:44 - jakarta.persistence.PersistenceUnitUtil.getIdentifier is only intended to work with enhanced entities (although Hibernate also adapts this support to its proxies); however the passed entity was not enhanced (nor a proxy).. may not be able to read identifier
-2026-02-10 08:54:44 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = IGNORE
-2026-02-10 08:54:44 - Initializer list:
-	  com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.owner -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.owner)@1278632956 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Garage.owner])@556812393)
-	  com.mvgore.garageapi.entity.User.bookings.{element}.garage.owner.garages -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.garage.owner.garages)@1693599978 (PluralAttribute(com.mvgore.garageapi.entity.User.garages))
-	  com.mvgore.garageapi.entity.User.bookings.{element}.garage.services -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.garage.services)@1790143726 (PluralAttribute(com.mvgore.garageapi.entity.Garage.services))
-	  com.mvgore.garageapi.entity.User.bookings.{element}.garage.owner.bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.garage.owner.bookings)@456490418 (PluralAttribute(com.mvgore.garageapi.entity.User.bookings))
-	  com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.owner.garages -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.owner.garages)@1692652715 (PluralAttribute(com.mvgore.garageapi.entity.User.garages))
-	  com.mvgore.garageapi.entity.User.bookings.{element} -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.User.bookings.{element})@312501701 (EntityCollectionPart(com.mvgore.garageapi.entity.User.bookings#{element})@218193338)
-	  com.mvgore.garageapi.entity.User.bookings.{element}.garage.owner -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.garage.owner)@1669705571 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Garage.owner])@556812393)
-	  com.mvgore.garageapi.entity.User.bookings -> SetInitializer(com.mvgore.garageapi.entity.User.bookings)@1408075340 (PluralAttribute(com.mvgore.garageapi.entity.User.bookings))
-	  com.mvgore.garageapi.entity.User.bookings.{element}.customer -> EntitySelectFetchInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.customer)@693192214 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Booking.customer])@770012055)
-	  com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.services -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.services)@953061556 (PluralAttribute(com.mvgore.garageapi.entity.Garage.services))
-	  com.mvgore.garageapi.entity.User.bookings.{element}.garage -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.garage)@1996410489 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Booking.garage])@1047156219)
-	  com.mvgore.garageapi.entity.User.bookings.{element}.service -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.service)@1226766604 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Booking.service])@1688248774)
-	  com.mvgore.garageapi.entity.User.bookings.{element}.garage.bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.garage.bookings)@1784440783 (PluralAttribute(com.mvgore.garageapi.entity.Garage.bookings))
-	  com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.owner.bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.owner.bookings)@651890944 (PluralAttribute(com.mvgore.garageapi.entity.User.bookings))
-	  com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.bookings)@651595428 (PluralAttribute(com.mvgore.garageapi.entity.Garage.bookings))
-	  com.mvgore.garageapi.entity.User.bookings.{element}.service.garage -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.service.garage)@415155691 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.GarageServiceEntity.garage])@675572486)
-
-2026-02-10 08:54:44 - 
+2026-02-10 22:29:06 - 
     select
         b1_0.customer_id,
         b1_0.id,
@@ -788,16 +513,7 @@ Hibernate:
             on o2_0.id=g2_0.owner_id 
     where
         b1_0.customer_id=?
-2026-02-10 08:54:44 - Collection fully initialized: [com.mvgore.garageapi.entity.User.bookings#4]
-2026-02-10 08:54:44 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = IGNORE
-2026-02-10 08:54:44 - Initializer list:
-	  com.mvgore.garageapi.entity.User.garages.{element} -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.User.garages.{element})@2101996530 (EntityCollectionPart(com.mvgore.garageapi.entity.User.garages#{element})@2033307298)
-	  com.mvgore.garageapi.entity.User.garages.{element}.owner -> EntitySelectFetchInitializer(com.mvgore.garageapi.entity.User.garages.{element}.owner)@330758189 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Garage.owner])@556812393)
-	  com.mvgore.garageapi.entity.User.garages -> SetInitializer(com.mvgore.garageapi.entity.User.garages)@788934076 (PluralAttribute(com.mvgore.garageapi.entity.User.garages))
-	  com.mvgore.garageapi.entity.User.garages.{element}.services -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.garages.{element}.services)@126769944 (PluralAttribute(com.mvgore.garageapi.entity.Garage.services))
-	  com.mvgore.garageapi.entity.User.garages.{element}.bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.garages.{element}.bookings)@891954784 (PluralAttribute(com.mvgore.garageapi.entity.Garage.bookings))
-
-2026-02-10 08:54:44 - 
+2026-02-10 22:29:06 - 
     select
         g1_0.owner_id,
         g1_0.id,
@@ -821,20 +537,7 @@ Hibernate:
         garages g1_0 
     where
         g1_0.owner_id=?
-2026-02-10 08:54:44 - Collection fully initialized: [com.mvgore.garageapi.entity.User.garages#4]
-2026-02-10 08:54:44 - committing
-2026-02-10 08:54:44 - Processing flush-time cascades
-2026-02-10 08:54:44 - Dirty checking collections
-2026-02-10 08:54:44 - Collection dereferenced: [com.mvgore.garageapi.entity.User.bookings#3]
-2026-02-10 08:54:44 - Collection dereferenced: [com.mvgore.garageapi.entity.User.garages#3]
-2026-02-10 08:54:44 - Collection dereferenced: [com.mvgore.garageapi.entity.User.bookings#4]
-2026-02-10 08:54:44 - Collection dereferenced: [com.mvgore.garageapi.entity.User.garages#4]
-2026-02-10 08:54:44 - Flushed: 0 insertions, 0 updates, 2 deletions to 2 objects
-2026-02-10 08:54:44 - Flushed: 0 (re)creations, 0 updates, 4 removals to 4 collections
-2026-02-10 08:54:44 - Listing entities:
-2026-02-10 08:54:44 - com.mvgore.garageapi.entity.User{garages=[], password=pass, role=GARAGE_OWNER, name=owner1, id=3, bookings=[], email=owner1@test.com}
-2026-02-10 08:54:44 - com.mvgore.garageapi.entity.User{garages=[], password=pass, role=CUSTOMER, name=customer1, id=4, bookings=[], email=customer1@test.com}
-2026-02-10 08:54:44 - 
+2026-02-10 22:29:06 - 
     /* delete for com.mvgore.garageapi.entity.User */delete 
     from
         users 
@@ -846,7 +549,7 @@ Hibernate:
         users 
     where
         id=?
-2026-02-10 08:54:44 - 
+2026-02-10 22:29:06 - 
     /* delete for com.mvgore.garageapi.entity.User */delete 
     from
         users 
@@ -858,11 +561,7 @@ Hibernate:
         users 
     where
         id=?
-2026-02-10 08:54:44 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
-2026-02-10 08:54:44 - begin
-2026-02-10 08:54:44 - jakarta.persistence.PersistenceUnitUtil.getIdentifier is only intended to work with enhanced entities (although Hibernate also adapts this support to its proxies); however the passed entity was not enhanced (nor a proxy).. may not be able to read identifier
-2026-02-10 08:54:44 - Executing identity-insert immediately
-2026-02-10 08:54:44 - 
+2026-02-10 22:29:06 - 
     /* insert for
         com.mvgore.garageapi.entity.User */insert 
     into
@@ -876,45 +575,7 @@ Hibernate:
         users (email, name, password, role, id) 
     values
         (?, ?, ?, ?, default)
-2026-02-10 08:54:44 - Natively generated identity (com.mvgore.garageapi.entity.User) : 5
-2026-02-10 08:54:44 - HHH000387: ResultSet's statement was not registered
-2026-02-10 08:54:44 - Exception clearing maxRows/queryTimeout [The object is already closed [90007-224]]
-2026-02-10 08:54:44 - committing
-2026-02-10 08:54:44 - Processing flush-time cascades
-2026-02-10 08:54:44 - Dirty checking collections
-2026-02-10 08:54:44 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
-2026-02-10 08:54:44 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-2026-02-10 08:54:44 - Listing entities:
-2026-02-10 08:54:44 - com.mvgore.garageapi.entity.User{garages=null, password=pass, role=GARAGE_OWNER, name=Garage Owner, id=5, bookings=null, email=owner@test.com}
-2026-02-10 08:54:44 - Created new SQL alias : u1_0
-2026-02-10 08:54:44 - Registration of TableGroup [StandardTableGroup(com.mvgore.garageapi.entity.User(52248562176300))] with identifierForTableGroup [com.mvgore.garageapi.entity.User] for NavigablePath [com.mvgore.garageapi.entity.User] 
-2026-02-10 08:54:44 - Determining mapping-model type for SqmParameter : org.hibernate.query.sqm.tree.expression.SqmJpaCriteriaParameterWrapper@2857dbe3
-2026-02-10 08:54:44 - Determining mapping-model type for SqmPath : SqmBasicValuedSimplePath(com.mvgore.garageapi.entity.User(52248562176300).email) 
-2026-02-10 08:54:44 - DomainResult Graph:
- \-EntityResultImpl [com.mvgore.garageapi.entity.User(52248562176300)]
- |  +-DelayedCollectionFetch [com.mvgore.garageapi.entity.User(52248562176300).bookings]
- |  +-BasicFetch [com.mvgore.garageapi.entity.User(52248562176300).email]
- |  +-DelayedCollectionFetch [com.mvgore.garageapi.entity.User(52248562176300).garages]
- |  +-BasicFetch [com.mvgore.garageapi.entity.User(52248562176300).name]
- |  +-BasicFetch [com.mvgore.garageapi.entity.User(52248562176300).password]
- |  \-BasicFetch [com.mvgore.garageapi.entity.User(52248562176300).role]
-
-2026-02-10 08:54:44 - SQL AST Tree:
-    SelectStatement {
-      FromClause {
-        StandardTableGroup (u1 : com.mvgore.garageapi.entity.User(52248562176300)) {
-          primaryTableReference : users as u1_0
-        }
-      }
-    }
-
-2026-02-10 08:54:44 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
-2026-02-10 08:54:44 - Initializer list:
-	  com.mvgore.garageapi.entity.User(52248562176300).bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User(52248562176300).bookings)@195465343 (PluralAttribute(com.mvgore.garageapi.entity.User.bookings))
-	  com.mvgore.garageapi.entity.User(52248562176300) -> EntityResultInitializer(com.mvgore.garageapi.entity.User(52248562176300))@490261035 (SingleTableEntityPersister(com.mvgore.garageapi.entity.User))
-	  com.mvgore.garageapi.entity.User(52248562176300).garages -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User(52248562176300).garages)@1789462987 (PluralAttribute(com.mvgore.garageapi.entity.User.garages))
-
-2026-02-10 08:54:44 - 
+2026-02-10 22:29:06 - 
     /* <criteria> */ select
         u1_0.id,
         u1_0.email,
@@ -936,24 +597,7 @@ Hibernate:
         users u1_0 
     where
         u1_0.email=?
-2026-02-10 08:54:44 - Extracted JDBC value [0] - [5]
-2026-02-10 08:54:44 - (EntityResultInitializer) Hydrated EntityKey (com.mvgore.garageapi.entity.User(52248562176300)): 5
-2026-02-10 08:54:44 - Extracted JDBC value [0] - [5]
-2026-02-10 08:54:44 - (DelayedCollectionInitializer) Current row collection key : com.mvgore.garageapi.entity.User(52248562176300).bookings#5
-2026-02-10 08:54:44 - Extracted JDBC value [0] - [5]
-2026-02-10 08:54:44 - (DelayedCollectionInitializer) Current row collection key : com.mvgore.garageapi.entity.User(52248562176300).garages#5
-2026-02-10 08:54:44 - (EntityResultInitializer) Created new entity instance [com.mvgore.garageapi.entity.User(52248562176300)#5] : 793770805
-2026-02-10 08:54:44 - Extracted JDBC value [1] - [owner@test.com]
-2026-02-10 08:54:44 - Extracted JDBC value [2] - [Garage Owner]
-2026-02-10 08:54:44 - Extracted JDBC value [3] - [pass]
-2026-02-10 08:54:44 - Extracted JDBC value [4] - [GARAGE_OWNER]
-2026-02-10 08:54:44 - (EntityResultInitializer) Done materializing entityInstance : com.mvgore.garageapi.entity.User(52248562176300)#5
-2026-02-10 08:54:44 - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@605ef319
-2026-02-10 08:54:44 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
-2026-02-10 08:54:44 - begin
-2026-02-10 08:54:44 - jakarta.persistence.PersistenceUnitUtil.getIdentifier is only intended to work with enhanced entities (although Hibernate also adapts this support to its proxies); however the passed entity was not enhanced (nor a proxy).. may not be able to read identifier
-2026-02-10 08:54:44 - Executing identity-insert immediately
-2026-02-10 08:54:44 - 
+2026-02-10 22:29:06 - 
     /* insert for
         com.mvgore.garageapi.entity.Garage */insert 
     into
@@ -967,56 +611,10 @@ Hibernate:
         garages (description, location, name, owner_id, price_range, id) 
     values
         (?, ?, ?, ?, ?, default)
-2026-02-10 08:54:44 - Natively generated identity (com.mvgore.garageapi.entity.Garage) : 3
-2026-02-10 08:54:44 - HHH000387: ResultSet's statement was not registered
-2026-02-10 08:54:44 - Exception clearing maxRows/queryTimeout [The object is already closed [90007-224]]
-2026-02-10 08:54:44 - committing
-2026-02-10 08:54:44 - Processing flush-time cascades
-2026-02-10 08:54:44 - Dirty checking collections
-2026-02-10 08:54:44 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
-2026-02-10 08:54:44 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-2026-02-10 08:54:44 - Listing entities:
-2026-02-10 08:54:44 - com.mvgore.garageapi.entity.Garage{owner=com.mvgore.garageapi.entity.User#5, name=New Garage, description=null, location=Mumbai, id=3, services=null, bookings=null, priceRange=null}
-2026-02-10 08:54:44 - Evaluating path: $['name']
 ]]></system-out>
   </testcase>
-  <testcase name="testGetGarages" classname="com.garage.controller.GarageControllerIntegrationTest" time="0.158">
-    <system-out><![CDATA[2026-02-10 08:54:44 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
-2026-02-10 08:54:44 - begin
-2026-02-10 08:54:44 - Created new SQL alias : g1_0
-2026-02-10 08:54:44 - Registration of TableGroup [StandardTableGroup(com.mvgore.garageapi.entity.Garage(52257279750600))] with identifierForTableGroup [com.mvgore.garageapi.entity.Garage] for NavigablePath [com.mvgore.garageapi.entity.Garage] 
-2026-02-10 08:54:44 - Registration of TableGroup [org.hibernate.sql.ast.tree.from.LazyTableGroup@58d291c1] with identifierForTableGroup [com.mvgore.garageapi.entity.Garage.owner] for NavigablePath [com.mvgore.garageapi.entity.Garage.owner] 
-2026-02-10 08:54:44 - DomainResult Graph:
- \-EntityResultImpl [com.mvgore.garageapi.entity.Garage(52257279750600)]
- |  +-DelayedCollectionFetch [com.mvgore.garageapi.entity.Garage(52257279750600).bookings]
- |  +-BasicFetch [com.mvgore.garageapi.entity.Garage(52257279750600).description]
- |  +-BasicFetch [com.mvgore.garageapi.entity.Garage(52257279750600).location]
- |  +-BasicFetch [com.mvgore.garageapi.entity.Garage(52257279750600).name]
- |  +-CircularFetchImpl [com.mvgore.garageapi.entity.Garage(52257279750600).owner]
- |  +-BasicFetch [com.mvgore.garageapi.entity.Garage(52257279750600).priceRange]
- |  \-DelayedCollectionFetch [com.mvgore.garageapi.entity.Garage(52257279750600).services]
-
-2026-02-10 08:54:44 - SQL AST Tree:
-    SelectStatement {
-      FromClause {
-        StandardTableGroup (g1 : com.mvgore.garageapi.entity.Garage(52257279750600)) {
-          primaryTableReference : garages as g1_0
-          TableGroupJoins {
-            left  join LazyTableGroup (o1 : com.mvgore.garageapi.entity.Garage(52257279750600).owner) {
-            }
-          }
-        }
-      }
-    }
-
-2026-02-10 08:54:44 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
-2026-02-10 08:54:44 - Initializer list:
-	  com.mvgore.garageapi.entity.Garage(52257279750600).owner -> EntitySelectFetchInitializer(com.mvgore.garageapi.entity.Garage(52257279750600).owner)@13084627 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Garage.owner])@556812393)
-	  com.mvgore.garageapi.entity.Garage(52257279750600).services -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.Garage(52257279750600).services)@2034639977 (PluralAttribute(com.mvgore.garageapi.entity.Garage.services))
-	  com.mvgore.garageapi.entity.Garage(52257279750600).bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.Garage(52257279750600).bookings)@859945614 (PluralAttribute(com.mvgore.garageapi.entity.Garage.bookings))
-	  com.mvgore.garageapi.entity.Garage(52257279750600) -> EntityResultInitializer(com.mvgore.garageapi.entity.Garage(52257279750600))@2136046014 (SingleTableEntityPersister(com.mvgore.garageapi.entity.Garage))
-
-2026-02-10 08:54:44 - 
+  <testcase name="testGetGarages" classname="com.garage.controller.GarageControllerIntegrationTest" time="0.137">
+    <system-out><![CDATA[2026-02-10 22:29:07 - 
     /* <criteria> */ select
         g1_0.id,
         g1_0.description,
@@ -1036,22 +634,7 @@ Hibernate:
         g1_0.price_range 
     from
         garages g1_0
-2026-02-10 08:54:44 - Extracted JDBC value [0] - [3]
-2026-02-10 08:54:44 - (EntityResultInitializer) Hydrated EntityKey (com.mvgore.garageapi.entity.Garage(52257279750600)): 3
-2026-02-10 08:54:44 - Extracted JDBC value [0] - [3]
-2026-02-10 08:54:44 - (DelayedCollectionInitializer) Current row collection key : com.mvgore.garageapi.entity.Garage(52257279750600).bookings#3
-2026-02-10 08:54:44 - Extracted JDBC value [0] - [3]
-2026-02-10 08:54:44 - (DelayedCollectionInitializer) Current row collection key : com.mvgore.garageapi.entity.Garage(52257279750600).services#3
-2026-02-10 08:54:44 - (EntityResultInitializer) Created new entity instance [com.mvgore.garageapi.entity.Garage(52257279750600)#3] : 873721852
-2026-02-10 08:54:44 - Extracted JDBC value [4] - [5]
-2026-02-10 08:54:44 - (EntitySelectFetchInitializer) Invoking session#internalLoad for entity (com.mvgore.garageapi.entity.Garage(52257279750600).owner#5) : 5
-2026-02-10 08:54:44 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = IGNORE
-2026-02-10 08:54:44 - Initializer list:
-	  com.mvgore.garageapi.entity.User.bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.bookings)@1618771800 (PluralAttribute(com.mvgore.garageapi.entity.User.bookings))
-	  com.mvgore.garageapi.entity.User.garages -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.garages)@1270546596 (PluralAttribute(com.mvgore.garageapi.entity.User.garages))
-	  com.mvgore.garageapi.entity.User -> EntityResultInitializer(com.mvgore.garageapi.entity.User)@1413293102 (SingleTableEntityPersister(com.mvgore.garageapi.entity.User))
-
-2026-02-10 08:54:44 - 
+2026-02-10 22:29:07 - 
     select
         u1_0.id,
         u1_0.email,
@@ -1073,44 +656,7 @@ Hibernate:
         users u1_0 
     where
         u1_0.id=?
-2026-02-10 08:54:44 - (EntityResultInitializer) Hydrated EntityKey (com.mvgore.garageapi.entity.User): 5
-2026-02-10 08:54:44 - Extracted JDBC value [0] - [5]
-2026-02-10 08:54:44 - (DelayedCollectionInitializer) Current row collection key : com.mvgore.garageapi.entity.User.bookings#5
-2026-02-10 08:54:44 - Extracted JDBC value [0] - [5]
-2026-02-10 08:54:44 - (DelayedCollectionInitializer) Current row collection key : com.mvgore.garageapi.entity.User.garages#5
-2026-02-10 08:54:44 - (EntityResultInitializer) Created new entity instance [com.mvgore.garageapi.entity.User#5] : 1329520064
-2026-02-10 08:54:44 - Extracted JDBC value [1] - [owner@test.com]
-2026-02-10 08:54:44 - Extracted JDBC value [2] - [Garage Owner]
-2026-02-10 08:54:44 - Extracted JDBC value [3] - [pass]
-2026-02-10 08:54:44 - Extracted JDBC value [4] - [GARAGE_OWNER]
-2026-02-10 08:54:44 - (EntityResultInitializer) Done materializing entityInstance : com.mvgore.garageapi.entity.User#5
-2026-02-10 08:54:44 - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@58a01e47
-2026-02-10 08:54:44 - (EntitySelectFetchInitializer) Entity [com.mvgore.garageapi.entity.Garage(52257279750600).owner#5] : 5 has being loaded by session.internalLoad.
-2026-02-10 08:54:44 - Extracted JDBC value [1] - [null]
-2026-02-10 08:54:44 - Extracted JDBC value [2] - [Mumbai]
-2026-02-10 08:54:44 - Extracted JDBC value [3] - [New Garage]
-2026-02-10 08:54:44 - Extracted JDBC value [5] - [null]
-2026-02-10 08:54:44 - (EntityResultInitializer) Done materializing entityInstance : com.mvgore.garageapi.entity.Garage(52257279750600)#3
-2026-02-10 08:54:44 - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@6149184e
-2026-02-10 08:54:44 - jakarta.persistence.PersistenceUnitUtil.getIdentifier is only intended to work with enhanced entities (although Hibernate also adapts this support to its proxies); however the passed entity was not enhanced (nor a proxy).. may not be able to read identifier
-2026-02-10 08:54:44 - jakarta.persistence.PersistenceUnitUtil.getIdentifier is only intended to work with enhanced entities (although Hibernate also adapts this support to its proxies); however the passed entity was not enhanced (nor a proxy).. may not be able to read identifier
-2026-02-10 08:54:44 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = IGNORE
-2026-02-10 08:54:44 - Initializer list:
-	  com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage.owner -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage.owner)@1866108254 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Garage.owner])@556812393)
-	  com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage)@1745844830 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.GarageServiceEntity.garage])@675572486)
-	  com.mvgore.garageapi.entity.Garage.bookings.{element}.service -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.Garage.bookings.{element}.service)@805638974 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Booking.service])@1688248774)
-	  com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage.bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage.bookings)@430433816 (PluralAttribute(com.mvgore.garageapi.entity.Garage.bookings))
-	  com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage.owner.bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage.owner.bookings)@583849999 (PluralAttribute(com.mvgore.garageapi.entity.User.bookings))
-	  com.mvgore.garageapi.entity.Garage.bookings.{element}.garage -> EntitySelectFetchInitializer(com.mvgore.garageapi.entity.Garage.bookings.{element}.garage)@830643074 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Booking.garage])@1047156219)
-	  com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage.owner.garages -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage.owner.garages)@696705647 (PluralAttribute(com.mvgore.garageapi.entity.User.garages))
-	  com.mvgore.garageapi.entity.Garage.bookings.{element} -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.Garage.bookings.{element})@263669345 (EntityCollectionPart(com.mvgore.garageapi.entity.Garage.bookings#{element})@1556161140)
-	  com.mvgore.garageapi.entity.Garage.bookings.{element}.customer.bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.Garage.bookings.{element}.customer.bookings)@1266674488 (PluralAttribute(com.mvgore.garageapi.entity.User.bookings))
-	  com.mvgore.garageapi.entity.Garage.bookings.{element}.customer.garages -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.Garage.bookings.{element}.customer.garages)@1845765982 (PluralAttribute(com.mvgore.garageapi.entity.User.garages))
-	  com.mvgore.garageapi.entity.Garage.bookings.{element}.customer -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.Garage.bookings.{element}.customer)@1880044907 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Booking.customer])@770012055)
-	  com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage.services -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.Garage.bookings.{element}.service.garage.services)@1161752901 (PluralAttribute(com.mvgore.garageapi.entity.Garage.services))
-	  com.mvgore.garageapi.entity.Garage.bookings -> SetInitializer(com.mvgore.garageapi.entity.Garage.bookings)@1898767601 (PluralAttribute(com.mvgore.garageapi.entity.Garage.bookings))
-
-2026-02-10 08:54:44 - 
+2026-02-10 22:29:07 - 
     select
         b1_0.garage_id,
         b1_0.id,
@@ -1200,14 +746,7 @@ Hibernate:
             on o1_0.id=g2_0.owner_id 
     where
         b1_0.garage_id=?
-2026-02-10 08:54:44 - Collection fully initialized: [com.mvgore.garageapi.entity.Garage.bookings#3]
-2026-02-10 08:54:44 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = IGNORE
-2026-02-10 08:54:44 - Initializer list:
-	  com.mvgore.garageapi.entity.Garage.services.{element}.garage -> EntitySelectFetchInitializer(com.mvgore.garageapi.entity.Garage.services.{element}.garage)@100054770 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.GarageServiceEntity.garage])@675572486)
-	  com.mvgore.garageapi.entity.Garage.services -> SetInitializer(com.mvgore.garageapi.entity.Garage.services)@325833169 (PluralAttribute(com.mvgore.garageapi.entity.Garage.services))
-	  com.mvgore.garageapi.entity.Garage.services.{element} -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.Garage.services.{element})@1174044442 (EntityCollectionPart(com.mvgore.garageapi.entity.Garage.services#{element})@824753705)
-
-2026-02-10 08:54:44 - 
+2026-02-10 22:29:07 - 
     select
         s1_0.garage_id,
         s1_0.id,
@@ -1229,20 +768,7 @@ Hibernate:
         services s1_0 
     where
         s1_0.garage_id=?
-2026-02-10 08:54:44 - Collection fully initialized: [com.mvgore.garageapi.entity.Garage.services#3]
-2026-02-10 08:54:44 - committing
-2026-02-10 08:54:44 - Processing flush-time cascades
-2026-02-10 08:54:44 - Dirty checking collections
-2026-02-10 08:54:44 - Collection found: [com.mvgore.garageapi.entity.User.bookings#5], was: [com.mvgore.garageapi.entity.User.bookings#5] (uninitialized)
-2026-02-10 08:54:44 - Collection found: [com.mvgore.garageapi.entity.User.garages#5], was: [com.mvgore.garageapi.entity.User.garages#5] (uninitialized)
-2026-02-10 08:54:44 - Collection dereferenced: [com.mvgore.garageapi.entity.Garage.bookings#3]
-2026-02-10 08:54:44 - Collection dereferenced: [com.mvgore.garageapi.entity.Garage.services#3]
-2026-02-10 08:54:44 - Flushed: 0 insertions, 0 updates, 1 deletions to 2 objects
-2026-02-10 08:54:44 - Flushed: 0 (re)creations, 0 updates, 2 removals to 4 collections
-2026-02-10 08:54:44 - Listing entities:
-2026-02-10 08:54:44 - com.mvgore.garageapi.entity.Garage{owner=com.mvgore.garageapi.entity.User#5, name=New Garage, description=null, location=Mumbai, id=3, services=[], bookings=[], priceRange=null}
-2026-02-10 08:54:44 - com.mvgore.garageapi.entity.User{garages=<uninitialized>, password=pass, role=GARAGE_OWNER, name=Garage Owner, id=5, bookings=<uninitialized>, email=owner@test.com}
-2026-02-10 08:54:44 - 
+2026-02-10 22:29:07 - 
     /* delete for com.mvgore.garageapi.entity.Garage */delete 
     from
         garages 
@@ -1254,35 +780,7 @@ Hibernate:
         garages 
     where
         id=?
-2026-02-10 08:54:44 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
-2026-02-10 08:54:44 - begin
-2026-02-10 08:54:44 - Created new SQL alias : u1_0
-2026-02-10 08:54:44 - Registration of TableGroup [StandardTableGroup(com.mvgore.garageapi.entity.User(52257317279600))] with identifierForTableGroup [com.mvgore.garageapi.entity.User] for NavigablePath [com.mvgore.garageapi.entity.User] 
-2026-02-10 08:54:44 - DomainResult Graph:
- \-EntityResultImpl [com.mvgore.garageapi.entity.User(52257317279600)]
- |  +-DelayedCollectionFetch [com.mvgore.garageapi.entity.User(52257317279600).bookings]
- |  +-BasicFetch [com.mvgore.garageapi.entity.User(52257317279600).email]
- |  +-DelayedCollectionFetch [com.mvgore.garageapi.entity.User(52257317279600).garages]
- |  +-BasicFetch [com.mvgore.garageapi.entity.User(52257317279600).name]
- |  +-BasicFetch [com.mvgore.garageapi.entity.User(52257317279600).password]
- |  \-BasicFetch [com.mvgore.garageapi.entity.User(52257317279600).role]
-
-2026-02-10 08:54:44 - SQL AST Tree:
-    SelectStatement {
-      FromClause {
-        StandardTableGroup (u1 : com.mvgore.garageapi.entity.User(52257317279600)) {
-          primaryTableReference : users as u1_0
-        }
-      }
-    }
-
-2026-02-10 08:54:44 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
-2026-02-10 08:54:44 - Initializer list:
-	  com.mvgore.garageapi.entity.User(52257317279600).garages -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User(52257317279600).garages)@400101249 (PluralAttribute(com.mvgore.garageapi.entity.User.garages))
-	  com.mvgore.garageapi.entity.User(52257317279600).bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User(52257317279600).bookings)@2064934627 (PluralAttribute(com.mvgore.garageapi.entity.User.bookings))
-	  com.mvgore.garageapi.entity.User(52257317279600) -> EntityResultInitializer(com.mvgore.garageapi.entity.User(52257317279600))@211753297 (SingleTableEntityPersister(com.mvgore.garageapi.entity.User))
-
-2026-02-10 08:54:44 - 
+2026-02-10 22:29:07 - 
     /* <criteria> */ select
         u1_0.id,
         u1_0.email,
@@ -1300,41 +798,7 @@ Hibernate:
         u1_0.role 
     from
         users u1_0
-2026-02-10 08:54:44 - Extracted JDBC value [0] - [5]
-2026-02-10 08:54:44 - (EntityResultInitializer) Hydrated EntityKey (com.mvgore.garageapi.entity.User(52257317279600)): 5
-2026-02-10 08:54:44 - Extracted JDBC value [0] - [5]
-2026-02-10 08:54:44 - (DelayedCollectionInitializer) Current row collection key : com.mvgore.garageapi.entity.User(52257317279600).bookings#5
-2026-02-10 08:54:44 - Extracted JDBC value [0] - [5]
-2026-02-10 08:54:44 - (DelayedCollectionInitializer) Current row collection key : com.mvgore.garageapi.entity.User(52257317279600).garages#5
-2026-02-10 08:54:44 - (EntityResultInitializer) Created new entity instance [com.mvgore.garageapi.entity.User(52257317279600)#5] : 1833549064
-2026-02-10 08:54:44 - Extracted JDBC value [1] - [owner@test.com]
-2026-02-10 08:54:44 - Extracted JDBC value [2] - [Garage Owner]
-2026-02-10 08:54:44 - Extracted JDBC value [3] - [pass]
-2026-02-10 08:54:44 - Extracted JDBC value [4] - [GARAGE_OWNER]
-2026-02-10 08:54:44 - (EntityResultInitializer) Done materializing entityInstance : com.mvgore.garageapi.entity.User(52257317279600)#5
-2026-02-10 08:54:44 - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@13e6b26c
-2026-02-10 08:54:44 - jakarta.persistence.PersistenceUnitUtil.getIdentifier is only intended to work with enhanced entities (although Hibernate also adapts this support to its proxies); however the passed entity was not enhanced (nor a proxy).. may not be able to read identifier
-2026-02-10 08:54:44 - jakarta.persistence.PersistenceUnitUtil.getIdentifier is only intended to work with enhanced entities (although Hibernate also adapts this support to its proxies); however the passed entity was not enhanced (nor a proxy).. may not be able to read identifier
-2026-02-10 08:54:44 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = IGNORE
-2026-02-10 08:54:44 - Initializer list:
-	  com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.owner -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.owner)@870837477 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Garage.owner])@556812393)
-	  com.mvgore.garageapi.entity.User.bookings.{element}.garage.owner.garages -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.garage.owner.garages)@1769364884 (PluralAttribute(com.mvgore.garageapi.entity.User.garages))
-	  com.mvgore.garageapi.entity.User.bookings.{element}.garage.services -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.garage.services)@1660050994 (PluralAttribute(com.mvgore.garageapi.entity.Garage.services))
-	  com.mvgore.garageapi.entity.User.bookings.{element}.garage.owner.bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.garage.owner.bookings)@1151460818 (PluralAttribute(com.mvgore.garageapi.entity.User.bookings))
-	  com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.owner.garages -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.owner.garages)@1219344743 (PluralAttribute(com.mvgore.garageapi.entity.User.garages))
-	  com.mvgore.garageapi.entity.User.bookings.{element} -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.User.bookings.{element})@325900059 (EntityCollectionPart(com.mvgore.garageapi.entity.User.bookings#{element})@218193338)
-	  com.mvgore.garageapi.entity.User.bookings.{element}.garage.owner -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.garage.owner)@1662982282 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Garage.owner])@556812393)
-	  com.mvgore.garageapi.entity.User.bookings -> SetInitializer(com.mvgore.garageapi.entity.User.bookings)@677113422 (PluralAttribute(com.mvgore.garageapi.entity.User.bookings))
-	  com.mvgore.garageapi.entity.User.bookings.{element}.customer -> EntitySelectFetchInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.customer)@219684003 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Booking.customer])@770012055)
-	  com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.services -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.services)@2025444884 (PluralAttribute(com.mvgore.garageapi.entity.Garage.services))
-	  com.mvgore.garageapi.entity.User.bookings.{element}.garage -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.garage)@1677286081 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Booking.garage])@1047156219)
-	  com.mvgore.garageapi.entity.User.bookings.{element}.service -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.service)@346546542 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Booking.service])@1688248774)
-	  com.mvgore.garageapi.entity.User.bookings.{element}.garage.bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.garage.bookings)@1494686301 (PluralAttribute(com.mvgore.garageapi.entity.Garage.bookings))
-	  com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.owner.bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.owner.bookings)@1864920605 (PluralAttribute(com.mvgore.garageapi.entity.User.bookings))
-	  com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.service.garage.bookings)@1185816171 (PluralAttribute(com.mvgore.garageapi.entity.Garage.bookings))
-	  com.mvgore.garageapi.entity.User.bookings.{element}.service.garage -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.User.bookings.{element}.service.garage)@1831418689 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.GarageServiceEntity.garage])@675572486)
-
-2026-02-10 08:54:44 - 
+2026-02-10 22:29:07 - 
     select
         b1_0.customer_id,
         b1_0.id,
@@ -1442,16 +906,7 @@ Hibernate:
             on o2_0.id=g2_0.owner_id 
     where
         b1_0.customer_id=?
-2026-02-10 08:54:44 - Collection fully initialized: [com.mvgore.garageapi.entity.User.bookings#5]
-2026-02-10 08:54:44 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = IGNORE
-2026-02-10 08:54:44 - Initializer list:
-	  com.mvgore.garageapi.entity.User.garages.{element} -> EntityJoinedFetchInitializer(com.mvgore.garageapi.entity.User.garages.{element})@378720627 (EntityCollectionPart(com.mvgore.garageapi.entity.User.garages#{element})@2033307298)
-	  com.mvgore.garageapi.entity.User.garages.{element}.owner -> EntitySelectFetchInitializer(com.mvgore.garageapi.entity.User.garages.{element}.owner)@851772371 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Garage.owner])@556812393)
-	  com.mvgore.garageapi.entity.User.garages -> SetInitializer(com.mvgore.garageapi.entity.User.garages)@1445383049 (PluralAttribute(com.mvgore.garageapi.entity.User.garages))
-	  com.mvgore.garageapi.entity.User.garages.{element}.services -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.garages.{element}.services)@952339546 (PluralAttribute(com.mvgore.garageapi.entity.Garage.services))
-	  com.mvgore.garageapi.entity.User.garages.{element}.bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User.garages.{element}.bookings)@953863032 (PluralAttribute(com.mvgore.garageapi.entity.Garage.bookings))
-
-2026-02-10 08:54:44 - 
+2026-02-10 22:29:07 - 
     select
         g1_0.owner_id,
         g1_0.id,
@@ -1475,17 +930,7 @@ Hibernate:
         garages g1_0 
     where
         g1_0.owner_id=?
-2026-02-10 08:54:44 - Collection fully initialized: [com.mvgore.garageapi.entity.User.garages#5]
-2026-02-10 08:54:44 - committing
-2026-02-10 08:54:44 - Processing flush-time cascades
-2026-02-10 08:54:44 - Dirty checking collections
-2026-02-10 08:54:44 - Collection dereferenced: [com.mvgore.garageapi.entity.User.bookings#5]
-2026-02-10 08:54:44 - Collection dereferenced: [com.mvgore.garageapi.entity.User.garages#5]
-2026-02-10 08:54:44 - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
-2026-02-10 08:54:44 - Flushed: 0 (re)creations, 0 updates, 2 removals to 2 collections
-2026-02-10 08:54:44 - Listing entities:
-2026-02-10 08:54:44 - com.mvgore.garageapi.entity.User{garages=[], password=pass, role=GARAGE_OWNER, name=Garage Owner, id=5, bookings=[], email=owner@test.com}
-2026-02-10 08:54:44 - 
+2026-02-10 22:29:07 - 
     /* delete for com.mvgore.garageapi.entity.User */delete 
     from
         users 
@@ -1497,11 +942,7 @@ Hibernate:
         users 
     where
         id=?
-2026-02-10 08:54:44 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
-2026-02-10 08:54:44 - begin
-2026-02-10 08:54:44 - jakarta.persistence.PersistenceUnitUtil.getIdentifier is only intended to work with enhanced entities (although Hibernate also adapts this support to its proxies); however the passed entity was not enhanced (nor a proxy).. may not be able to read identifier
-2026-02-10 08:54:44 - Executing identity-insert immediately
-2026-02-10 08:54:44 - 
+2026-02-10 22:29:07 - 
     /* insert for
         com.mvgore.garageapi.entity.User */insert 
     into
@@ -1515,45 +956,7 @@ Hibernate:
         users (email, name, password, role, id) 
     values
         (?, ?, ?, ?, default)
-2026-02-10 08:54:44 - Natively generated identity (com.mvgore.garageapi.entity.User) : 6
-2026-02-10 08:54:44 - HHH000387: ResultSet's statement was not registered
-2026-02-10 08:54:44 - Exception clearing maxRows/queryTimeout [The object is already closed [90007-224]]
-2026-02-10 08:54:44 - committing
-2026-02-10 08:54:44 - Processing flush-time cascades
-2026-02-10 08:54:44 - Dirty checking collections
-2026-02-10 08:54:44 - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
-2026-02-10 08:54:44 - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
-2026-02-10 08:54:44 - Listing entities:
-2026-02-10 08:54:44 - com.mvgore.garageapi.entity.User{garages=null, password=pass, role=GARAGE_OWNER, name=Garage Owner, id=6, bookings=null, email=owner@test.com}
-2026-02-10 08:54:44 - Created new SQL alias : u1_0
-2026-02-10 08:54:44 - Registration of TableGroup [StandardTableGroup(com.mvgore.garageapi.entity.User(52248562176300))] with identifierForTableGroup [com.mvgore.garageapi.entity.User] for NavigablePath [com.mvgore.garageapi.entity.User] 
-2026-02-10 08:54:44 - Determining mapping-model type for SqmParameter : org.hibernate.query.sqm.tree.expression.SqmJpaCriteriaParameterWrapper@54139bd3
-2026-02-10 08:54:44 - Determining mapping-model type for SqmPath : SqmBasicValuedSimplePath(com.mvgore.garageapi.entity.User(52248562176300).email) 
-2026-02-10 08:54:44 - DomainResult Graph:
- \-EntityResultImpl [com.mvgore.garageapi.entity.User(52248562176300)]
- |  +-DelayedCollectionFetch [com.mvgore.garageapi.entity.User(52248562176300).bookings]
- |  +-BasicFetch [com.mvgore.garageapi.entity.User(52248562176300).email]
- |  +-DelayedCollectionFetch [com.mvgore.garageapi.entity.User(52248562176300).garages]
- |  +-BasicFetch [com.mvgore.garageapi.entity.User(52248562176300).name]
- |  +-BasicFetch [com.mvgore.garageapi.entity.User(52248562176300).password]
- |  \-BasicFetch [com.mvgore.garageapi.entity.User(52248562176300).role]
-
-2026-02-10 08:54:44 - SQL AST Tree:
-    SelectStatement {
-      FromClause {
-        StandardTableGroup (u1 : com.mvgore.garageapi.entity.User(52248562176300)) {
-          primaryTableReference : users as u1_0
-        }
-      }
-    }
-
-2026-02-10 08:54:44 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
-2026-02-10 08:54:44 - Initializer list:
-	  com.mvgore.garageapi.entity.User(52248562176300).bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User(52248562176300).bookings)@596016023 (PluralAttribute(com.mvgore.garageapi.entity.User.bookings))
-	  com.mvgore.garageapi.entity.User(52248562176300) -> EntityResultInitializer(com.mvgore.garageapi.entity.User(52248562176300))@1803792695 (SingleTableEntityPersister(com.mvgore.garageapi.entity.User))
-	  com.mvgore.garageapi.entity.User(52248562176300).garages -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.User(52248562176300).garages)@1083745968 (PluralAttribute(com.mvgore.garageapi.entity.User.garages))
-
-2026-02-10 08:54:44 - 
+2026-02-10 22:29:07 - 
     /* <criteria> */ select
         u1_0.id,
         u1_0.email,
@@ -1575,56 +978,8 @@ Hibernate:
         users u1_0 
     where
         u1_0.email=?
-2026-02-10 08:54:44 - Extracted JDBC value [0] - [6]
-2026-02-10 08:54:44 - (EntityResultInitializer) Hydrated EntityKey (com.mvgore.garageapi.entity.User(52248562176300)): 6
-2026-02-10 08:54:44 - Extracted JDBC value [0] - [6]
-2026-02-10 08:54:44 - (DelayedCollectionInitializer) Current row collection key : com.mvgore.garageapi.entity.User(52248562176300).bookings#6
-2026-02-10 08:54:44 - Extracted JDBC value [0] - [6]
-2026-02-10 08:54:44 - (DelayedCollectionInitializer) Current row collection key : com.mvgore.garageapi.entity.User(52248562176300).garages#6
-2026-02-10 08:54:44 - (EntityResultInitializer) Created new entity instance [com.mvgore.garageapi.entity.User(52248562176300)#6] : 972564142
-2026-02-10 08:54:44 - Extracted JDBC value [1] - [owner@test.com]
-2026-02-10 08:54:44 - Extracted JDBC value [2] - [Garage Owner]
-2026-02-10 08:54:44 - Extracted JDBC value [3] - [pass]
-2026-02-10 08:54:44 - Extracted JDBC value [4] - [GARAGE_OWNER]
-2026-02-10 08:54:44 - (EntityResultInitializer) Done materializing entityInstance : com.mvgore.garageapi.entity.User(52248562176300)#6
-2026-02-10 08:54:44 - Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@78cb1a92
-2026-02-10 08:54:44 - Setting JDBC Connection [HikariProxyConnection@1092175623 wrapping conn0: url=jdbc:h2:mem:garage_test user=SA] read-only
-2026-02-10 08:54:44 - On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
-2026-02-10 08:54:44 - begin
-2026-02-10 08:54:44 - Created new SQL alias : g1_0
-2026-02-10 08:54:44 - Registration of TableGroup [StandardTableGroup(com.mvgore.garageapi.entity.Garage(52257398978400))] with identifierForTableGroup [com.mvgore.garageapi.entity.Garage] for NavigablePath [com.mvgore.garageapi.entity.Garage] 
-2026-02-10 08:54:44 - Registration of TableGroup [org.hibernate.sql.ast.tree.from.LazyTableGroup@5a0d25ba] with identifierForTableGroup [com.mvgore.garageapi.entity.Garage.owner] for NavigablePath [com.mvgore.garageapi.entity.Garage.owner] 
-2026-02-10 08:54:44 - DomainResult Graph:
- \-EntityResultImpl [com.mvgore.garageapi.entity.Garage(52257398978400)]
- |  +-DelayedCollectionFetch [com.mvgore.garageapi.entity.Garage(52257398978400).bookings]
- |  +-BasicFetch [com.mvgore.garageapi.entity.Garage(52257398978400).description]
- |  +-BasicFetch [com.mvgore.garageapi.entity.Garage(52257398978400).location]
- |  +-BasicFetch [com.mvgore.garageapi.entity.Garage(52257398978400).name]
- |  +-CircularFetchImpl [com.mvgore.garageapi.entity.Garage(52257398978400).owner]
- |  +-BasicFetch [com.mvgore.garageapi.entity.Garage(52257398978400).priceRange]
- |  \-DelayedCollectionFetch [com.mvgore.garageapi.entity.Garage(52257398978400).services]
-
-2026-02-10 08:54:44 - SQL AST Tree:
-    SelectStatement {
-      FromClause {
-        StandardTableGroup (g1 : com.mvgore.garageapi.entity.Garage(52257398978400)) {
-          primaryTableReference : garages as g1_0
-          TableGroupJoins {
-            left  join LazyTableGroup (o1 : com.mvgore.garageapi.entity.Garage(52257398978400).owner) {
-            }
-          }
-        }
-      }
-    }
-
-2026-02-10 08:54:44 - Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
-2026-02-10 08:54:44 - Initializer list:
-	  com.mvgore.garageapi.entity.Garage(52257398978400).owner -> EntitySelectFetchInitializer(com.mvgore.garageapi.entity.Garage(52257398978400).owner)@1927847138 (ToOneAttributeMapping(NavigableRole[com.mvgore.garageapi.entity.Garage.owner])@556812393)
-	  com.mvgore.garageapi.entity.Garage(52257398978400).services -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.Garage(52257398978400).services)@464957683 (PluralAttribute(com.mvgore.garageapi.entity.Garage.services))
-	  com.mvgore.garageapi.entity.Garage(52257398978400).bookings -> DelayedCollectionInitializer(com.mvgore.garageapi.entity.Garage(52257398978400).bookings)@726350104 (PluralAttribute(com.mvgore.garageapi.entity.Garage.bookings))
-	  com.mvgore.garageapi.entity.Garage(52257398978400) -> EntityResultInitializer(com.mvgore.garageapi.entity.Garage(52257398978400))@408484158 (SingleTableEntityPersister(com.mvgore.garageapi.entity.Garage))
-
-2026-02-10 08:54:44 - 
+2026-02-10 22:29:07 - Setting JDBC Connection [HikariProxyConnection@1884600481 wrapping conn0: url=jdbc:h2:mem:garage_test user=SA] read-only
+2026-02-10 22:29:07 - 
     /* <criteria> */ select
         g1_0.id,
         g1_0.description,
@@ -1644,8 +999,7 @@ Hibernate:
         g1_0.price_range 
     from
         garages g1_0
-2026-02-10 08:54:44 - committing
-2026-02-10 08:54:44 - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1092175623 wrapping conn0: url=jdbc:h2:mem:garage_test user=SA]
+2026-02-10 22:29:07 - Resetting read-only flag of JDBC Connection [HikariProxyConnection@1884600481 wrapping conn0: url=jdbc:h2:mem:garage_test user=SA]
 ]]></system-out>
   </testcase>
 </testsuite>
