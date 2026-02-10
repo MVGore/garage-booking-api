@@ -1,16 +1,17 @@
 server:
-  port: 8080
+  port: ${PORT:8080} #port: 8080
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/garage_db
+    url: ${DATABASE_URL}  #url: jdbc:postgresql://localhost:5432/garage_db
     username: postgres
     password: 1234
     driver-class-name: org.postgresql.Driver
 
   jpa:
     hibernate:
-      ddl-auto: update  # Updates schema automatically
+     # ddl-auto: update  # Updates schema automaticallY
+      ddl-auto: validate  # Updates schema automatically
     show-sql: true
     properties:
       hibernate:
@@ -29,12 +30,12 @@ spring:
           include: health,info
 
 jwt:
-  secret: your_jwt_secret_here
+  secret: ${JWT_SECRET} #your_jwt_secret_here
   expiration: 86400000 # 1 day in milliseconds
 
 logging:
   level:
-    root: DEBUG
+    root: INFO
     org.springframework: DEBUG
     org.hibernate.SQL: DEBUG
     com.mvgore.garageapi: DEBUG  # Log all your custom classes for detailed debugging
