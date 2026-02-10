@@ -11,3 +11,4 @@ public class GarageApplication {
         System.out.println("Garage Booking API is running...");
     }
 }
+
