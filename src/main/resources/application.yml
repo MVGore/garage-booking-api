@@ -29,7 +29,7 @@ logging:
     com.mvgore.garageapi: INFO
 
 
-######LOCATHOST SERVER ########
+######LOCATHOST SERVER ##########
 
 # server:
 #   port: 8080
