@@ -1,0 +1,218 @@
+Folder PATH listing
+Volume serial number is 9001-EF2D
+C:.
+|   .gitignore
+|   API.md
+|   CHECKLIST.md
+|   docker-compose.yml
+|   Dockerfile
+|   pom.xml
+|   project-structure.txt
+|   README.md
+|   run.bat
+|   run.sh
+|   STARTUP_GUIDE.md
+|   
++---logs
+|       application.log
+|       
++---src
+|   +---main
+|   |   +---java
+|   |   |   \---com
+|   |   |       \---mvgore
+|   |   |           \---garageapi
+|   |   |               |   GarageApplication.java
+|   |   |               |   
+|   |   |               +---auth
+|   |   |               |       AuthController.java
+|   |   |               |       AuthResponse.java
+|   |   |               |       LoginRequest.java
+|   |   |               |       RegisterRequest.java
+|   |   |               |       
+|   |   |               +---config
+|   |   |               |       SecurityConfig.java
+|   |   |               |       
+|   |   |               +---controller
+|   |   |               |       BookingController.java
+|   |   |               |       GarageController.java
+|   |   |               |       ServiceController.java
+|   |   |               |       
+|   |   |               +---dto
+|   |   |               |       BookingDTO.java
+|   |   |               |       BookingRequest.java
+|   |   |               |       BookingResponse.java
+|   |   |               |       ErrorResponse.java
+|   |   |               |       GarageDTO.java
+|   |   |               |       ServiceDTO.java
+|   |   |               |       
+|   |   |               +---entity
+|   |   |               |       Booking.java
+|   |   |               |       BookingStatus.java
+|   |   |               |       Garage.java
+|   |   |               |       GarageServiceEntity.java
+|   |   |               |       User.java
+|   |   |               |       
+|   |   |               +---exception
+|   |   |               |       BookingConflictException.java
+|   |   |               |       BookingNotFoundException.java
+|   |   |               |       CustomerNotFoundException.java
+|   |   |               |       GarageException.java
+|   |   |               |       GarageNotFoundException.java
+|   |   |               |       GlobalExceptionHandler.java
+|   |   |               |       ServiceNotFoundException.java
+|   |   |               |       
+|   |   |               +---repository
+|   |   |               |       BookingRepository.java
+|   |   |               |       GarageRepository.java
+|   |   |               |       ServiceRepository.java
+|   |   |               |       UserRepository.java
+|   |   |               |       
+|   |   |               +---security
+|   |   |               |       CustomUserDetailsService.java
+|   |   |               |       JwtFilter.java
+|   |   |               |       JwtUtil.java
+|   |   |               |       UserPrincipal.java
+|   |   |               |       
+|   |   |               \---service
+|   |   |                       BookingService.java
+|   |   |                       GarageService.java
+|   |   |                       ServiceService.java
+|   |   |                       UserService.java
+|   |   |                       
+|   |   \---resources
+|   |       |   application-test.yml
+|   |       |   application.yml
+|   |       |   
+|   |       \---db
+|   |           \---changelog
+|   |                   db.changelog-master.xml
+|   |                   
+|   \---test
+|       \---java
+|           \---com
+|               \---garage
+|                   +---controller
+|                   |       BookingControllerIntegrationTest.java
+|                   |       GarageControllerIntegrationTest.java
+|                   |       ServiceControllerIntegrationTest.java
+|                   |       
+|                   \---service
+|                           BookingServiceTest.java
+|                           GarageServiceTest.java
+|                           UserServiceTest.java
+|                           
+\---target
+    +---classes
+    |   |   application-test.yml
+    |   |   application.yml
+    |   |   
+    |   +---com
+    |   |   \---mvgore
+    |   |       \---garageapi
+    |   |           |   GarageApplication.class
+    |   |           |   
+    |   |           +---auth
+    |   |           |       AuthController.class
+    |   |           |       AuthResponse.class
+    |   |           |       LoginRequest.class
+    |   |           |       RegisterRequest.class
+    |   |           |       
+    |   |           +---config
+    |   |           |       SecurityConfig.class
+    |   |           |       
+    |   |           +---controller
+    |   |           |       BookingController.class
+    |   |           |       GarageController.class
+    |   |           |       ServiceController.class
+    |   |           |       
+    |   |           +---dto
+    |   |           |       BookingDTO.class
+    |   |           |       BookingRequest.class
+    |   |           |       BookingResponse.class
+    |   |           |       ErrorResponse.class
+    |   |           |       GarageDTO.class
+    |   |           |       ServiceDTO.class
+    |   |           |       
+    |   |           +---entity
+    |   |           |       Booking.class
+    |   |           |       BookingStatus.class
+    |   |           |       Garage.class
+    |   |           |       GarageServiceEntity.class
+    |   |           |       User$Role.class
+    |   |           |       User.class
+    |   |           |       
+    |   |           +---exception
+    |   |           |       BookingConflictException.class
+    |   |           |       BookingNotFoundException.class
+    |   |           |       CustomerNotFoundException.class
+    |   |           |       GarageException.class
+    |   |           |       GarageNotFoundException.class
+    |   |           |       GlobalExceptionHandler.class
+    |   |           |       ServiceNotFoundException.class
+    |   |           |       
+    |   |           +---repository
+    |   |           |       BookingRepository.class
+    |   |           |       GarageRepository.class
+    |   |           |       ServiceRepository.class
+    |   |           |       UserRepository.class
+    |   |           |       
+    |   |           +---security
+    |   |           |       CustomUserDetailsService.class
+    |   |           |       JwtFilter.class
+    |   |           |       JwtUtil.class
+    |   |           |       UserPrincipal.class
+    |   |           |       
+    |   |           \---service
+    |   |                   BookingService.class
+    |   |                   GarageService.class
+    |   |                   ServiceService.class
+    |   |                   UserService.class
+    |   |                   
+    |   \---db
+    |       \---changelog
+    |               db.changelog-master.xml
+    |               
+    +---generated-sources
+    |   \---annotations
+    +---generated-test-sources
+    |   \---test-annotations
+    +---maven-status
+    |   \---maven-compiler-plugin
+    |       +---compile
+    |       |   \---default-compile
+    |       |           createdFiles.lst
+    |       |           inputFiles.lst
+    |       |           
+    |       \---testCompile
+    |           \---default-testCompile
+    |                   createdFiles.lst
+    |                   inputFiles.lst
+    |                   
+    +---surefire-reports
+    |       com.garage.controller.BookingControllerIntegrationTest.txt
+    |       com.garage.controller.GarageControllerIntegrationTest.txt
+    |       com.garage.controller.ServiceControllerIntegrationTest.txt
+    |       com.garage.service.BookingServiceTest.txt
+    |       com.garage.service.GarageServiceTest.txt
+    |       com.garage.service.UserServiceTest.txt
+    |       TEST-com.garage.controller.BookingControllerIntegrationTest.xml
+    |       TEST-com.garage.controller.GarageControllerIntegrationTest.xml
+    |       TEST-com.garage.controller.ServiceControllerIntegrationTest.xml
+    |       TEST-com.garage.service.BookingServiceTest.xml
+    |       TEST-com.garage.service.GarageServiceTest.xml
+    |       TEST-com.garage.service.UserServiceTest.xml
+    |       
+    \---test-classes
+        \---com
+            \---garage
+                +---controller
+                |       BookingControllerIntegrationTest.class
+                |       GarageControllerIntegrationTest.class
+                |       ServiceControllerIntegrationTest.class
+                |       
+                \---service
+                        BookingServiceTest.class
+                        GarageServiceTest.class
+                        UserServiceTest.class
+                        

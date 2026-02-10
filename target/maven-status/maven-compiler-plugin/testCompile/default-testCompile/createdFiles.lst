@@ -1,0 +1,6 @@
+com\garage\controller\BookingControllerIntegrationTest.class
+com\garage\controller\GarageControllerIntegrationTest.class
+com\garage\service\GarageServiceTest.class
+com\garage\controller\ServiceControllerIntegrationTest.class
+com\garage\service\BookingServiceTest.class
+com\garage\service\UserServiceTest.class

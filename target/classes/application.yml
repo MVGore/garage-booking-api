@@ -1,0 +1,47 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/garage_db
+    username: postgres
+    password: 1234
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update  # Updates schema automatically
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        # Optionally log all SQL queries to the console for debugging
+        use_sql_comments: true
+
+  liquibase:
+    change-log: classpath:db/changelog/db.changelog-master.xml
+
+  # Enable Actuator health checks (optional for debugging)
+  management:
+    endpoints:
+      web:
+        exposure:
+          include: health,info
+
+jwt:
+  secret: your_jwt_secret_here
+  expiration: 86400000 # 1 day in milliseconds
+
+logging:
+  level:
+    root: DEBUG
+    org.springframework: DEBUG
+    org.hibernate.SQL: DEBUG
+    com.mvgore.garageapi: DEBUG  # Log all your custom classes for detailed debugging
+    org.springframework.jdbc.datasource: DEBUG
+
+  # Log file configuration for better traceability
+  file:
+    name: logs/application.log  # Log all application-related output here
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"  # Log format for console output
