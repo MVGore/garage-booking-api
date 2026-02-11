@@ -1,4 +1,4 @@
-version: "3.9"
+version: "3.8"
 
 services:
   garage-api:
@@ -7,13 +7,17 @@ services:
     ports:
       - "8080:8080"
     depends_on:
-      - postgres
+      postgres:
+        condition: service_healthy
     environment:
-      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/garage_db
-      SPRING_DATASOURCE_USERNAME: postgres
-      SPRING_DATASOURCE_PASSWORD: postgres
-      SPRING_JPA_HIBERNATE_DDL_AUTO: update
-      SPRING_LIQUIBASE_ENABLED: "true"
+      PGHOST: garage-postgres
+      PGPORT: 5432
+      PGDATABASE: garage_db
+      PGUSER: postgres
+      PGPASSWORD: postgres
+      JWT_SECRET: super-secret-key
+      PORT: 8080
+    restart: unless-stopped
 
   postgres:
     image: postgres:15
@@ -31,6 +35,7 @@ services:
       interval: 5s
       timeout: 5s
       retries: 5
+    restart: unless-stopped
 
 volumes:
   postgres-data:

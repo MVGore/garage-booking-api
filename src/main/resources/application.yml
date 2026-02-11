@@ -1,6 +1,6 @@
 server:
-  port: ${PORT:8080}
-  address: 0.0.0.0
+  port: ${PORT:8080}       # Railway dynamic port
+  address: 0.0.0.0         # Bind to all network interfaces
 
 spring:
   datasource:
@@ -8,30 +8,42 @@ spring:
     username: ${PGUSER}
     password: ${PGPASSWORD}
     driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 2
 
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     hibernate:
       ddl-auto: update
-    open-in-view: false
     show-sql: false
-
+    open-in-view: false
 
   liquibase:
-    enabled: false
+    enabled: 
 
 management:
   endpoints:
     enabled-by-default: false
 
 jwt:
-  secret: ${JWT_SECRET}
+  secret: ${JWT_SECRET}       # Must be set in Railway Environment Variables
   expiration: 86400000
 
 logging:
   level:
-    root: OFF
+    root: INFO
     com.mvgore.garageapi: INFO
+
+# Optional: track Railway environment for debugging/logging
+railway:
+  project-name: ${RAILWAY_PROJECT_NAME}
+  environment: ${RAILWAY_ENVIRONMENT_NAME}
+  service-name: ${RAILWAY_SERVICE_NAME}
+  project-id: ${RAILWAY_PROJECT_ID}
+  environment-id: ${RAILWAY_ENVIRONMENT_ID}
+  service-id: ${RAILWAY_SERVICE_ID}
+
 
 
 ######LOCATHOST SERVER ##########
