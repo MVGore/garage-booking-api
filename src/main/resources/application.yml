@@ -16,7 +16,6 @@ spring:
     open-in-view: false
     show-sql: false
 
-
   liquibase:
     enabled: false
 
