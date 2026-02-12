@@ -14,7 +14,7 @@ services:
       PGPORT: 5432
       PGDATABASE: garage_db
       PGUSER: postgres
-      PGPASSWORD: postgres
+      PGPASSWORD: garage_database
       JWT_SECRET: super-secret-key
       PORT: 8080
     restart: unless-stopped
