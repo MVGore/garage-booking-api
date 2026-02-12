@@ -20,8 +20,8 @@ public class GarageServiceEntity {
     @Column(nullable = false)
     private Double price;
 
-    @Column(nullable = false)
-    private Integer duration; // in minutes
+    @Column(name = "duration_minutes", nullable = false)
+    private Integer durationMinutes;
 
     // Getters and Setters
     public Long getId() { return id; }
@@ -36,6 +36,6 @@ public class GarageServiceEntity {
     public Double getPrice() { return price; }
     public void setPrice(Double price) { this.price = price; }
 
-    public Integer getDuration() { return duration; }
-    public void setDuration(Integer duration) { this.duration = duration; }
+    public Integer getDuration() { return durationMinutes; }
+    public void setDuration(Integer durationMinutes) { this.durationMinutes = durationMinutes; }
 }

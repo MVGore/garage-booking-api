@@ -23,8 +23,8 @@ public class Booking {
     @JoinColumn(name = "service_id", nullable = false)
     private GarageServiceEntity service;
 
-    @Column(nullable = false)
-    private LocalDateTime bookingTime;
+    @Column(name = "booking_date", nullable = false) // <--- MAP TO DATABASE COLUMN
+    private LocalDateTime bookingTime; // Java field can stay as bookingTime
 
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)

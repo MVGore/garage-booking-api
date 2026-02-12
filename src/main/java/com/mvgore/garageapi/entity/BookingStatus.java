@@ -2,7 +2,7 @@ package com.mvgore.garageapi.entity;
 
 public enum BookingStatus {
     PENDING,
-    ACCEPTED,
+    APPROVED,
     COMPLETED,
     CANCELLED
 }

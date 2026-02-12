@@ -9,6 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashSet;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -102,6 +103,12 @@ public class GarageController {
         garage.setDescription(dto.getDescription());
         garage.setLocation(dto.getLocation());
         garage.setPriceRange(dto.getPriceRange());
+
+        // Initialize sets to avoid null errors
+        garage.setServices(new HashSet<>());
+        garage.setBookings(new HashSet<>());
+
         return garage;
     }
+
 }

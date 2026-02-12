@@ -3,14 +3,14 @@ package com.mvgore.garageapi.dto;
 import java.time.LocalDateTime;
 
 public class BookingRequest {
-    private String customerEmail;
+    // private String customerEmail;
     private Long garageId;
     private Long serviceId;
     private LocalDateTime bookingTime;
 
     // Getters/Setters
-    public String getCustomerEmail() { return customerEmail; }
-    public void setCustomerEmail(String customerEmail) { this.customerEmail = customerEmail; }
+    // public String getCustomerEmail() { return customerEmail; }
+    // public void setCustomerEmail(String customerEmail) { this.customerEmail = customerEmail; }
 
     public Long getGarageId() { return garageId; }
     public void setGarageId(Long garageId) { this.garageId = garageId; }

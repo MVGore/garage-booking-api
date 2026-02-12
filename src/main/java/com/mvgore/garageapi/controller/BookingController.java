@@ -41,14 +41,19 @@ public class BookingController {
     /* =========================
        CREATE BOOKING
        ========================= */
-    @PostMapping
-    public ResponseEntity<BookingResponse> createBooking(
-            @RequestBody BookingRequest request
-    ) {
+   @PostMapping
+public ResponseEntity<BookingResponse> createBooking(
+        @RequestBody BookingRequest request,
+        Authentication authentication
+) {
 
-        User customer = userService.findByEmail(request.getCustomerEmail())
-                .orElseThrow(() ->
-                        new CustomerNotFoundException("Customer not found"));
+    // ✅ Get logged-in user from token
+        UserPrincipal principal = (UserPrincipal) authentication.getPrincipal();
+        User customer = principal.getUser();
+
+        if (customer.getRole() != User.Role.CUSTOMER) {
+                throw new ForbiddenOperationException("Only customers can create bookings");
+        }
 
         Garage garage = garageService.getGarageById(request.getGarageId())
                 .orElseThrow(() ->
@@ -60,7 +65,7 @@ public class BookingController {
                                 new ServiceNotFoundException("Service not found"));
 
         Booking booking = new Booking();
-        booking.setCustomer(customer);
+        booking.setCustomer(customer); // ✅ from token
         booking.setGarage(garage);
         booking.setService(service);
         booking.setBookingTime(request.getBookingTime());
@@ -72,7 +77,8 @@ public class BookingController {
         response.setStatus(saved.getStatus());
 
         return ResponseEntity.ok(response);
-    }
+        }
+
 
     /* =========================
        GET BOOKINGS
