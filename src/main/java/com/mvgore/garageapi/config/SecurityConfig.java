@@ -1,7 +1,9 @@
 package com.mvgore.garageapi.config;
 
 import com.mvgore.garageapi.security.JwtFilter;
-import org.springframework.context.annotation.*;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration;
 import org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity;
@@ -11,30 +13,50 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import org.springframework.web.cors.CorsConfigurationSource;
 
 @Configuration
 @EnableMethodSecurity
 public class SecurityConfig {
 
     private final JwtFilter jwtFilter;
+    private final CorsConfigurationSource corsConfigurationSource;
 
-    public SecurityConfig(JwtFilter jwtFilter){
+    public SecurityConfig(JwtFilter jwtFilter,
+                          CorsConfigurationSource corsConfigurationSource) {
         this.jwtFilter = jwtFilter;
+        this.corsConfigurationSource = corsConfigurationSource;
     }
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 
         http
-            .cors(cors -> {})   // THIS LINE FIXES YOUR CORS ERROR
+            // Explicitly attach CORS config
+            .cors(cors -> cors.configurationSource(corsConfigurationSource))
+
+            // Disable CSRF for REST API
             .csrf(csrf -> csrf.disable())
+
+            // Authorization rules
             .authorizeHttpRequests(auth -> auth
+
+                    // VERY IMPORTANT — allow preflight requests
+                    .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
+
+                    // Public endpoints
                     .requestMatchers("/api/auth/**").permitAll()
+
+                    // All others secured
                     .anyRequest().authenticated()
             )
+
+            // Stateless JWT session
             .sessionManagement(sess ->
                     sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS)
             )
+
+            // JWT filter
             .addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
 
         return http.build();
@@ -46,7 +68,8 @@ public class SecurityConfig {
     }
 
     @Bean
-    public AuthenticationManager authenticationManager(AuthenticationConfiguration config) throws Exception {
+    public AuthenticationManager authenticationManager(AuthenticationConfiguration config)
+            throws Exception {
         return config.getAuthenticationManager();
     }
 }
